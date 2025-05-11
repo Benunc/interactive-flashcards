@@ -1,0 +1,172 @@
+{
+    "title": "Spanish Vocabulary & Grammar",
+    "description": "Test your knowledge of 11th grade Spanish",
+    "totalQuestions": 15,
+    "questions": [
+        {
+            "question": "¿Cuál es el significado de 'la perseverancia'?",
+            "options": [
+                "The patience",
+                "The perseverance",
+                "The persistence",
+                "The determination"
+            ],
+            "answer": 1,
+            "explanation": "'La perseverancia' means 'the perseverance' - the quality of continuing to try to achieve a particular aim despite difficulties."
+        },
+        {
+            "question": "¿Cuál es la forma correcta del subjuntivo presente para 'tener' en la primera persona singular?",
+            "options": [
+                "tengo",
+                "tenga",
+                "tuviera",
+                "tendría"
+            ],
+            "answer": 1,
+            "explanation": "The present subjunctive form of 'tener' in first person singular is 'tenga'."
+        },
+        {
+            "question": "¿Qué significa la expresión 'ponerse las pilas'?",
+            "options": [
+                "To put on batteries",
+                "To get one's act together",
+                "To charge a device",
+                "To be energetic"
+            ],
+            "answer": 1,
+            "explanation": "'Ponerse las pilas' is an idiomatic expression meaning 'to get one's act together' or 'to get motivated'."
+        },
+        {
+            "question": "¿Cuál es el uso correcto del pretérito perfecto?",
+            "options": [
+                "Para acciones futuras",
+                "Para acciones completadas en el pasado reciente",
+                "Para acciones habituales",
+                "Para acciones en progreso"
+            ],
+            "answer": 1,
+            "explanation": "El pretérito perfecto se usa para acciones completadas en el pasado reciente que tienen relevancia en el presente."
+        },
+        {
+            "question": "¿Qué significa 'el quehacer'?",
+            "options": [
+                "The question",
+                "The task or chore",
+                "The work",
+                "The duty"
+            ],
+            "answer": 1,
+            "explanation": "'El quehacer' refers to a task or chore that needs to be done."
+        },
+        {
+            "question": "¿Cuál es la forma correcta del condicional para 'hacer' en la tercera persona plural?",
+            "options": [
+                "hacen",
+                "harían",
+                "hicieran",
+                "hacían"
+            ],
+            "answer": 1,
+            "explanation": "The conditional form of 'hacer' in third person plural is 'harían'."
+        },
+        {
+            "question": "¿Qué significa la expresión 'dar en el clavo'?",
+            "options": [
+                "To hit the nail",
+                "To hit the mark",
+                "To make a mistake",
+                "To be precise"
+            ],
+            "answer": 1,
+            "explanation": "'Dar en el clavo' means 'to hit the mark' or 'to be exactly right'."
+        },
+        {
+            "question": "¿Cuál es el uso correcto de 'por' vs 'para'?",
+            "options": [
+                "'Por' siempre indica tiempo",
+                "'Para' indica propósito o destino",
+                "'Por' siempre indica causa",
+                "'Para' siempre indica duración"
+            ],
+            "answer": 1,
+            "explanation": "'Para' se usa principalmente para indicar propósito o destino, mientras que 'por' tiene varios usos incluyendo causa, medio, y duración."
+        },
+        {
+            "question": "¿Qué significa 'la brecha'?",
+            "options": [
+                "The beach",
+                "The gap",
+                "The break",
+                "The bridge"
+            ],
+            "answer": 1,
+            "explanation": "'La brecha' means 'the gap' or 'the breach'."
+        },
+        {
+            "question": "¿Cuál es la forma correcta del pluscuamperfecto para 'decir' en la primera persona plural?",
+            "options": [
+                "decimos",
+                "habíamos dicho",
+                "dijimos",
+                "diríamos"
+            ],
+            "answer": 1,
+            "explanation": "The pluperfect form of 'decir' in first person plural is 'habíamos dicho'."
+        },
+        {
+            "question": "¿Qué significa la expresión 'estar en las nubes'?",
+            "options": [
+                "To be in the clouds",
+                "To be daydreaming",
+                "To be flying",
+                "To be high up"
+            ],
+            "answer": 1,
+            "explanation": "'Estar en las nubes' means 'to be daydreaming' or 'to have one's head in the clouds'."
+        },
+        {
+            "question": "¿Cuál es el uso correcto del subjuntivo en cláusulas adjetivas?",
+            "options": [
+                "Siempre se usa después de 'que'",
+                "Se usa cuando el antecedente es indefinido o negativo",
+                "Siempre se usa en preguntas",
+                "Se usa solo en el pasado"
+            ],
+            "answer": 1,
+            "explanation": "El subjuntivo en cláusulas adjetivas se usa cuando el antecedente es indefinido o negativo."
+        },
+        {
+            "question": "¿Qué significa 'el empeño'?",
+            "options": [
+                "The attempt",
+                "The determination",
+                "The effort",
+                "The goal"
+            ],
+            "answer": 1,
+            "explanation": "'El empeño' means 'the determination' or 'the commitment' to achieve something."
+        },
+        {
+            "question": "¿Cuál es la forma correcta del futuro perfecto para 'ver' en la segunda persona singular?",
+            "options": [
+                "ves",
+                "habrás visto",
+                "verás",
+                "viste"
+            ],
+            "answer": 1,
+            "explanation": "The future perfect form of 'ver' in second person singular is 'habrás visto'."
+        },
+        {
+            "question": "¿Qué significa la expresión 'no tener pelos en la lengua'?",
+            "options": [
+                "To not have hair on the tongue",
+                "To speak one's mind",
+                "To be silent",
+                "To be careful with words"
+            ],
+            "answer": 1,
+            "explanation": "'No tener pelos en la lengua' means 'to speak one's mind' or 'to be outspoken'."
+        }
+    ]
+} 

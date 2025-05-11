@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Flashcards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Topic Selection Screen -->
+        <div id="topic-selection" class="topic-selection">
+            <h1>Choose a Topic</h1>
+            <div id="topics-list" class="topics-list">
+                <!-- Topics will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="quiz-screen" style="display: none;">
+            <h1 id="quiz-title">Loading...</h1>
+            <p id="quiz-description" class="description"></p>
+            
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <div class="progress-text">
+                    Question <span id="current-question">1</span> of <span id="total-questions">0</span>
+                </div>
+            </div>
+
+            <div class="flashcard-container">
+                <div class="flashcard">
+                    <div class="flashcard-inner">
+                        <div class="question-section">
+                            <div id="question-text" class="question-text"></div>
+                            <div id="answer-text" class="answer-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="score-display">Score: <span id="score">0</span></div>
+                <button id="check-answer" class="btn">Check Answer</button>
+                <button id="next-card" class="btn" style="display: none;">Next Question</button>
+                <button id="back-to-topics" class="btn btn-secondary">Back to Topics</button>
+            </div>
+        </div>
+
+        <!-- Final Score Screen -->
+        <div id="final-score-screen" class="final-score-screen" style="display: none;">
+            <h2>Quiz Complete!</h2>
+            <div class="score-details">
+                <p>Your score: <span id="final-score">0</span> out of <span id="total-score">0</span></p>
+                <p>Percentage: <span id="percentage">0</span>%</p>
+            </div>
+            <div class="final-score-buttons">
+                <button id="restart-quiz" class="btn">Try Again</button>
+                <button id="back-to-topics-final" class="btn btn-secondary">Back to Topics</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
