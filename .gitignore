@@ -4,4 +4,6 @@ __pycache__/
 .env
 .venv
 venv/
-ENV/ 
+ENV/
+convert_quiz.py
+quiz_template.csv 
