@@ -123,8 +123,31 @@ async function loadQuiz(quizFile) {
 function showQuestion() {
     const question = quizData.questions[currentQuestionIndex];
     questionText.textContent = question.question;
-    answerText.textContent = question.answer;
-    answerText.style.display = 'none';
+    
+    // Clear previous options
+    answerText.innerHTML = '';
+    
+    // Create radio buttons for each option
+    question.options.forEach((option, index) => {
+        const optionDiv = document.createElement('div');
+        optionDiv.className = 'option';
+        
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.name = 'answer';
+        radio.id = `option${index}`;
+        radio.value = index;
+        
+        const label = document.createElement('label');
+        label.htmlFor = `option${index}`;
+        label.textContent = option;
+        
+        optionDiv.appendChild(radio);
+        optionDiv.appendChild(label);
+        answerText.appendChild(optionDiv);
+    });
+    
+    // Reset button states
     checkAnswerBtn.style.display = 'block';
     nextCardBtn.style.display = 'none';
     currentQuestionDisplay.textContent = currentQuestionIndex + 1;
@@ -132,7 +155,45 @@ function showQuestion() {
 
 // Check answer
 function checkAnswer() {
-    answerText.style.display = 'block';
+    const selectedOption = document.querySelector('input[name="answer"]:checked');
+    if (!selectedOption) {
+        alert('Please select an answer');
+        return;
+    }
+    
+    const selectedAnswer = parseInt(selectedOption.value);
+    const question = quizData.questions[currentQuestionIndex];
+    
+    // Disable all radio buttons
+    document.querySelectorAll('input[name="answer"]').forEach(radio => {
+        radio.disabled = true;
+    });
+    
+    // Show correct/incorrect feedback
+    const options = document.querySelectorAll('.option');
+    options.forEach((option, index) => {
+        if (index === question.answer) {
+            option.style.backgroundColor = '#d4edda';
+            option.style.borderColor = '#c3e6cb';
+        } else if (index === selectedAnswer && selectedAnswer !== question.answer) {
+            option.style.backgroundColor = '#f8d7da';
+            option.style.borderColor = '#f5c6cb';
+        }
+    });
+    
+    // Update score if correct
+    if (selectedAnswer === question.answer) {
+        score++;
+        updateScore();
+    }
+    
+    // Show explanation
+    const explanationDiv = document.createElement('div');
+    explanationDiv.className = 'explanation';
+    explanationDiv.textContent = question.explanation;
+    answerText.appendChild(explanationDiv);
+    
+    // Show next button
     checkAnswerBtn.style.display = 'none';
     nextCardBtn.style.display = 'block';
 }
