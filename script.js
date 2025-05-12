@@ -1,7 +1,6 @@
 let currentQuestionIndex = 0;
 let score = 0;
 let quizData = null;
-let quizConfig = null;
 
 // DOM Elements
 const topicSelection = document.getElementById('topic-selection');
@@ -25,35 +24,64 @@ const restartQuizBtn = document.getElementById('restart-quiz');
 const backToTopicsBtn = document.getElementById('back-to-topics');
 const backToTopicsFinalBtn = document.getElementById('back-to-topics-final');
 
-// Load quiz configuration
-async function loadQuizConfig() {
+// List of known quiz files - add new files here
+const quizFiles = [
+    'questions.json',
+    'spanish_questions.json',
+    'algebra2_questions.json'
+];
+
+// Load and display available quizzes
+async function loadQuizzes() {
     try {
-        const response = await fetch('quiz_config.json');
-        quizConfig = await response.json();
-        displayTopics();
+        const availableQuizzes = [];
+        
+        // Try to load each quiz file
+        for (const file of quizFiles) {
+            try {
+                const response = await fetch(file);
+                if (response.ok) {
+                    const quizData = await response.json();
+                    // Verify this is a quiz file by checking for required fields
+                    if (quizData.title && quizData.description && quizData.questions) {
+                        availableQuizzes.push({
+                            file: file,
+                            title: quizData.title,
+                            description: quizData.description
+                        });
+                    }
+                }
+            } catch (error) {
+                console.warn(`Could not load quiz file ${file}:`, error);
+            }
+        }
+
+        if (availableQuizzes.length === 0) {
+            topicsList.innerHTML = '<p class="error">No quiz files found. Please add some quiz JSON files to the repository.</p>';
+            return;
+        }
+
+        displayTopics(availableQuizzes);
     } catch (error) {
-        console.error('Error loading quiz configuration:', error);
-        topicsList.innerHTML = '<p class="error">Error loading quiz topics. Please try again later.</p>';
+        console.error('Error loading quizzes:', error);
+        topicsList.innerHTML = '<p class="error">Error loading quizzes. Please try again later.</p>';
     }
 }
 
 // Display available topics
-function displayTopics() {
-    topicsList.innerHTML = quizConfig.topics.map(topic => `
-        <div class="topic-card" data-topic-id="${topic.id}">
-            <h2>${topic.title}</h2>
-            <p>${topic.description}</p>
+function displayTopics(quizzes) {
+    topicsList.innerHTML = quizzes.map(quiz => `
+        <div class="topic-card" data-quiz-file="${quiz.file}">
+            <h2>${quiz.title}</h2>
+            <p>${quiz.description}</p>
         </div>
     `).join('');
 
     // Add click event listeners to topic cards
     document.querySelectorAll('.topic-card').forEach(card => {
         card.addEventListener('click', () => {
-            const topicId = card.dataset.topicId;
-            const topic = quizConfig.topics.find(t => t.id === topicId);
-            if (topic) {
-                loadQuiz(topic.file);
-            }
+            const quizFile = card.dataset.quizFile;
+            loadQuiz(quizFile);
         });
     });
 }
@@ -208,4 +236,4 @@ backToTopicsBtn.addEventListener('click', backToTopics);
 backToTopicsFinalBtn.addEventListener('click', backToTopics);
 
 // Start the application
-loadQuizConfig(); 
+loadQuizzes(); 
