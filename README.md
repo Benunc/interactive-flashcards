@@ -1,6 +1,6 @@
-# Cold War Flashcards
+# Multiple Choice Quiz Generator
 
-A simple web-based flashcard application for studying Cold War history. The application is designed to be easily customizable by adding new JSON quiz files.
+A web-based quiz application that allows you to create and take multiple-choice quizzes on any topic. The application supports multiple quiz files, provides immediate feedback, and includes detailed explanations for each answer. Perfect for students, teachers, or anyone looking to test their knowledge on various subjects.
 
 ## Features
 
