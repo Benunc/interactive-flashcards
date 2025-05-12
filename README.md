@@ -12,7 +12,44 @@ A simple web-based flashcard application for studying Cold War history. The appl
 
 ## Adding New Quizzes
 
-To add a new quiz:
+### Method 1: Using an LLM
+
+You can use any Large Language Model (like ChatGPT, Claude, or Gemini) to generate quiz JSON files. Here's how:
+
+1. Open your preferred LLM
+2. Copy and paste this prompt (replace the bracketed text with your topic):
+```
+Create a JSON file for a multiple-choice quiz about [YOUR TOPIC]. The quiz should:
+- Have a clear title and description
+- Include 10-15 questions
+- Each question should have 4 options
+- Include detailed explanations for each answer
+- Focus on key concepts and their relationships
+- Use clear, engaging language
+- Format the response as valid JSON
+
+The JSON structure should be:
+{
+    "title": "Quiz Title",
+    "description": "Quiz description",
+    "questions": [
+        {
+            "question": "Question text?",
+            "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+            "answer": 0,  // Index of correct answer (0-3)
+            "explanation": "Detailed explanation"
+        }
+    ]
+}
+```
+
+3. Copy the generated JSON
+4. Save it as a new file (e.g., `my_topic_questions.json`) in the root directory
+5. Add the filename to the `quizFiles` array in `script.js`
+
+### Method 2: Manual Creation
+
+To create a quiz manually:
 
 1. Create a new JSON file (e.g., `my_quiz.json`) with the following structure:
 ```json
