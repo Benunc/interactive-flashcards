@@ -4,7 +4,7 @@
     "totalQuestions": 16,
     "questions": [
         {
-            "question": "What was the primary purpose of the Berlin Wall?",
+            "question": "Why did the Soviet Union build the Berlin Wall in 1961?",
             "options": [
                 "To protect West Berlin from Soviet invasion",
                 "To prevent East Germans from defecting to West Berlin",
@@ -12,43 +12,43 @@
                 "To commemorate the end of World War II"
             ],
             "answer": 1,
-            "explanation": "The Berlin Wall was built in 1961 primarily to prevent East Germans from defecting to West Berlin, which was under Western control."
+            "explanation": "The Berlin Wall was built to prevent East Germans from defecting to West Berlin, highlighting the stark contrast between communist and capitalist living standards."
         },
         {
-            "question": "Which event is considered the closest the world came to nuclear war during the Cold War?",
+            "question": "What made the Cuban Missile Crisis the most dangerous moment of the Cold War?",
             "options": [
-                "The Korean War",
-                "The Cuban Missile Crisis",
-                "The Vietnam War",
-                "The Berlin Blockade"
+                "It was the first direct military conflict between the US and USSR",
+                "It brought the world closest to nuclear war when the US discovered Soviet missiles in Cuba",
+                "It led to the largest military mobilization in US history",
+                "It resulted in the most casualties of any Cold War event"
             ],
             "answer": 1,
-            "explanation": "The Cuban Missile Crisis in 1962 brought the world to the brink of nuclear war when the US discovered Soviet missiles in Cuba."
+            "explanation": "The Cuban Missile Crisis was the closest the world came to nuclear war, as the US and USSR faced off over Soviet missiles placed in Cuba, just 90 miles from US shores."
         },
         {
-            "question": "What was the main goal of the Marshall Plan?",
+            "question": "How did the Marshall Plan help prevent the spread of communism in Europe?",
             "options": [
-                "To establish military bases in Europe",
-                "To rebuild Western Europe's economy and prevent communism",
-                "To create a unified European currency",
-                "To establish NATO"
+                "By establishing military bases throughout Europe",
+                "By providing economic aid to rebuild Western Europe's economies",
+                "By creating a unified European currency",
+                "By establishing NATO"
             ],
             "answer": 1,
-            "explanation": "The Marshall Plan provided over $12 billion in economic aid to Western Europe to rebuild after WWII and prevent the spread of communism."
+            "explanation": "The Marshall Plan provided over $12 billion in economic aid to Western Europe, helping rebuild war-torn economies and making them less vulnerable to communist influence."
         },
         {
-            "question": "What was the significance of Sputnik's launch in 1957?",
+            "question": "Why was the launch of Sputnik in 1957 a significant moment in the Cold War?",
             "options": [
                 "It was the first human in space",
-                "It started the space race and showed Soviet technological advancement",
+                "It demonstrated Soviet technological superiority and started the space race",
                 "It was the first satellite to orbit the moon",
                 "It was the first successful US satellite"
             ],
             "answer": 1,
-            "explanation": "Sputnik's launch shocked the US and started the space race, demonstrating Soviet technological capabilities."
+            "explanation": "Sputnik's launch shocked the US by demonstrating Soviet technological capabilities, leading to the space race and increased US investment in science and education."
         },
         {
-            "question": "What was the main purpose of the Truman Doctrine?",
+            "question": "What was the main purpose of the Truman Doctrine in 1947?",
             "options": [
                 "To establish the United Nations",
                 "To provide military and economic aid to countries threatened by communism",
@@ -56,21 +56,21 @@
                 "To end World War II"
             ],
             "answer": 1,
-            "explanation": "The Truman Doctrine was announced in 1947 to provide military and economic aid to countries threatened by communism."
+            "explanation": "The Truman Doctrine established the US policy of containment, providing military and economic aid to countries threatened by communism to prevent its spread."
         },
         {
-            "question": "What was the Warsaw Pact?",
+            "question": "How did the Warsaw Pact serve as a response to NATO?",
             "options": [
-                "A peace treaty between the US and USSR",
-                "A military alliance of communist countries led by the Soviet Union",
-                "A trade agreement between Eastern European nations",
-                "A nuclear disarmament treaty"
+                "It was a peace treaty between the US and USSR",
+                "It created a military alliance of communist countries led by the Soviet Union",
+                "It was a trade agreement between Eastern European nations",
+                "It was a nuclear disarmament treaty"
             ],
             "answer": 1,
-            "explanation": "The Warsaw Pact was formed in 1955 as a military alliance of communist countries in response to NATO."
+            "explanation": "The Warsaw Pact was formed in 1955 as a military alliance of communist countries in response to NATO, creating a balance of power in Europe."
         },
         {
-            "question": "What was the significance of the Yalta Conference?",
+            "question": "What was the main outcome of the Yalta Conference in 1945?",
             "options": [
                 "It ended World War II",
                 "It established the United Nations",
@@ -78,29 +78,29 @@
                 "It created the Marshall Plan"
             ],
             "answer": 2,
-            "explanation": "The Yalta Conference in 1945 divided post-war Europe into spheres of influence between the US, UK, and USSR."
+            "explanation": "The Yalta Conference divided post-war Europe into spheres of influence between the US, UK, and USSR, setting the stage for the Cold War division of Europe."
         },
         {
-            "question": "What was the Bay of Pigs invasion?",
+            "question": "Why did the Bay of Pigs invasion fail in 1961?",
             "options": [
-                "A Soviet attack on Cuba",
-                "A failed US-backed invasion of Cuba by Cuban exiles",
-                "A successful Cuban revolution",
-                "A naval battle between the US and USSR"
+                "It was a Soviet attack on Cuba",
+                "It was a poorly planned US-backed invasion by Cuban exiles",
+                "It was a successful Cuban revolution",
+                "It was a naval battle between the US and USSR"
             ],
             "answer": 1,
-            "explanation": "The Bay of Pigs was a failed 1961 invasion of Cuba by US-backed Cuban exiles attempting to overthrow Fidel Castro."
+            "explanation": "The Bay of Pigs invasion failed due to poor planning, lack of air support, and strong Cuban resistance, embarrassing the US and strengthening Castro's position."
         },
         {
-            "question": "What were Glasnost and Perestroika?",
+            "question": "How did Glasnost and Perestroika contribute to the end of the Cold War?",
             "options": [
-                "Military strategies during the Cold War",
-                "Reform policies introduced by Mikhail Gorbachev in the USSR",
-                "Nuclear disarmament treaties",
-                "Economic policies of the United States"
+                "They were military strategies during the Cold War",
+                "They were reform policies that opened up Soviet society and restructured its economy",
+                "They were nuclear disarmament treaties",
+                "They were economic policies of the United States"
             ],
             "answer": 1,
-            "explanation": "Glasnost (openness) and Perestroika (restructuring) were reform policies introduced by Gorbachev that contributed to the end of the Cold War."
+            "explanation": "Glasnost (openness) and Perestroika (restructuring) were reform policies that opened up Soviet society and restructured its economy, leading to the end of the Cold War."
         },
         {
             "question": "What was the significance of Nixon's visit to China in 1972?",
@@ -111,43 +111,43 @@
                 "It led to the fall of the Berlin Wall"
             ],
             "answer": 1,
-            "explanation": "Nixon's visit to China marked the beginning of détente and improved relations between the US and China."
+            "explanation": "Nixon's visit to China marked the beginning of détente, improving US-China relations and putting pressure on the Soviet Union to improve relations with the US."
         },
         {
-            "question": "What was the Tet Offensive?",
+            "question": "Why was the Tet Offensive a turning point in the Vietnam War?",
             "options": [
-                "A Soviet military operation in Europe",
-                "A major turning point in the Vietnam War showing communist strength",
-                "A US military victory in Korea",
-                "A peace treaty between North and South Vietnam"
+                "It was a Soviet military operation in Europe",
+                "It showed the strength of communist forces and changed US public opinion",
+                "It was a US military victory in Korea",
+                "It was a peace treaty between North and South Vietnam"
             ],
             "answer": 1,
-            "explanation": "The Tet Offensive in 1968 was a major turning point in the Vietnam War, showing the strength of communist forces."
+            "explanation": "The Tet Offensive showed the strength of communist forces and changed US public opinion, leading to increased anti-war sentiment and eventual US withdrawal."
         },
         {
-            "question": "What was the Iron Curtain?",
+            "question": "What did the term 'Iron Curtain' represent during the Cold War?",
             "options": [
                 "A physical wall dividing Europe",
-                "A metaphorical term describing the division between communist and non-communist Europe",
+                "The ideological and physical division between communist and non-communist Europe",
                 "A military alliance between Eastern European countries",
                 "A trade agreement between the US and USSR"
             ],
             "answer": 1,
-            "explanation": "The Iron Curtain was a term describing the ideological and physical boundary dividing Europe during the Cold War."
+            "explanation": "The Iron Curtain represented the ideological and physical boundary dividing Europe, separating communist Eastern Europe from democratic Western Europe."
         },
         {
-            "question": "What was McCarthyism?",
+            "question": "How did McCarthyism affect American society during the Cold War?",
             "options": [
-                "A policy of nuclear deterrence",
-                "The practice of making accusations of subversion without proper evidence",
-                "A strategy for economic development",
-                "A diplomatic approach to Cold War tensions"
+                "It was a policy of nuclear deterrence",
+                "It created a climate of fear through unsubstantiated accusations of communism",
+                "It was a strategy for economic development",
+                "It was a diplomatic approach to Cold War tensions"
             ],
             "answer": 1,
-            "explanation": "McCarthyism refers to the practice of making accusations of subversion without proper evidence, named after Senator Joseph McCarthy."
+            "explanation": "McCarthyism created a climate of fear through unsubstantiated accusations of communism, leading to blacklisting and the suppression of political dissent."
         },
         {
-            "question": "What was brinkmanship?",
+            "question": "What was the strategy of brinkmanship during the Cold War?",
             "options": [
                 "A policy of nuclear disarmament",
                 "A strategy of pushing dangerous situations to the brink of disaster",
@@ -155,21 +155,21 @@
                 "A military training program"
             ],
             "answer": 1,
-            "explanation": "Brinkmanship was a strategy of pushing dangerous situations to the brink of disaster to achieve advantageous outcomes."
+            "explanation": "Brinkmanship was a strategy of pushing dangerous situations to the brink of disaster to achieve advantageous outcomes, often used in nuclear diplomacy."
         },
         {
-            "question": "Who were the 'Hawks' and 'Doves' during the Cold War?",
+            "question": "What was the difference between 'Hawks' and 'Doves' in Cold War politics?",
             "options": [
-                "Military aircraft used by the US and USSR",
-                "Political factions in the Soviet Union",
-                "Terms for those who supported (Hawks) or opposed (Doves) military intervention",
-                "Code names for nuclear weapons programs"
+                "They were military aircraft used by the US and USSR",
+                "They were political factions in the Soviet Union",
+                "Hawks supported military intervention while Doves preferred peaceful solutions",
+                "They were code names for nuclear weapons programs"
             ],
             "answer": 2,
-            "explanation": "Hawks supported military intervention while Doves preferred peaceful solutions and diplomacy."
+            "explanation": "Hawks supported military intervention and强硬的外交政策, while Doves preferred peaceful solutions and diplomacy in dealing with Cold War conflicts."
         },
         {
-            "question": "What was Watergate's impact on the Cold War?",
+            "question": "How did the Watergate scandal impact US Cold War leadership?",
             "options": [
                 "It led to nuclear disarmament",
                 "It improved US-Soviet relations",
@@ -177,7 +177,7 @@
                 "It ended the Vietnam War"
             ],
             "answer": 2,
-            "explanation": "Watergate weakened US leadership during a critical period of the Cold War, leading to Nixon's resignation."
+            "explanation": "Watergate weakened US leadership during a critical period of the Cold War, leading to Nixon's resignation and a temporary reduction in US international influence."
         }
     ]
 } 
