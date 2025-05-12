@@ -1,88 +1,71 @@
-# Interactive Flashcard System
+# Cold War Flashcards
 
-A flexible flashcard system that supports multiple topics and can be easily populated with content from Google Classroom.
+A simple web-based flashcard application for studying Cold War history. The application is designed to be easily customizable by adding new JSON quiz files.
 
-## Creating New Quizzes
+## Features
 
-### Method 1: Using Google Sheets
+- Multiple choice questions with immediate feedback
+- Detailed explanations for each answer
+- Progress tracking
+- Score calculation
+- Support for multiple quiz files
 
-1. Create a new Google Sheet
-2. Copy the template from `quiz_template.csv`
-3. Fill in your quiz content:
-   - First row: Quiz title, description, and total number of questions
-   - Leave one empty row
-   - Next row: Headers (question, option1, option2, option3, option4, correct_answer, explanation)
-   - Following rows: Your questions and answers
-4. Export as CSV
-5. Convert to JSON using the provided script:
-   ```bash
-   python convert_quiz.py your_quiz.csv your_quiz.json
-   ```
-6. Add the quiz to `quiz_config.json`:
-   ```json
-   {
-       "id": "your_quiz_id",
-       "title": "Your Quiz Title",
-       "description": "Your quiz description",
-       "file": "your_quiz.json"
-   }
-   ```
+## Adding New Quizzes
 
-### Method 2: Direct JSON Creation
+To add a new quiz:
 
-You can also create quiz files directly in JSON format following this structure:
+1. Create a new JSON file (e.g., `my_quiz.json`) with the following structure:
 ```json
 {
     "title": "Your Quiz Title",
-    "description": "Your quiz description",
-    "totalQuestions": number_of_questions,
+    "description": "A brief description of your quiz",
     "questions": [
         {
-            "question": "Your question",
-            "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
-            "answer": index_of_correct_answer,
-            "explanation": "Explanation of the answer"
+            "question": "Your question here?",
+            "options": [
+                "Option 1",
+                "Option 2",
+                "Option 3",
+                "Option 4"
+            ],
+            "answer": 0,  // Index of the correct answer (0-3)
+            "explanation": "Detailed explanation of the correct answer"
         }
+        // Add more questions...
     ]
 }
 ```
 
+2. Add your new quiz file to the `quizFiles` array in `script.js`:
+```javascript
+const quizFiles = [
+    'questions.json',
+    'spanish_questions.json',
+    'algebra2_questions.json',
+    'my_quiz.json'  // Add your new quiz file here
+];
+```
+
 ## Running the Application
 
-1. Start the local server:
-   ```bash
-   python -m http.server 8000
-   ```
-2. Open your browser and navigate to:
-   ```
-   http://localhost:8000
-   ```
-
-## Tips for Teachers
-
-1. **Creating Quizzes in Google Classroom**:
-   - Create a quiz in Google Classroom
-   - Export the questions to a spreadsheet
-   - Use the template format to organize the content
-   - Convert to JSON using the provided script
-
-2. **Best Practices**:
-   - Keep questions clear and concise
-   - Provide detailed explanations for answers
-   - Use consistent formatting
-   - Test the quiz before sharing with students
-
-3. **Sharing with Students**:
-   - Host the application on a web server
-   - Share the URL with your students
-   - Students can access the quizzes from any device with a web browser
+1. Clone this repository
+2. Open `index.html` in a web browser
+3. Select a quiz from the available options
+4. Answer the questions and check your score
 
 ## File Structure
 
-- `index.html` - Main application file
-- `styles.css` - Styling for the application
+- `index.html` - Main application page
 - `script.js` - Application logic
-- `quiz_config.json` - Configuration file for available quizzes
-- `quiz_template.csv` - Template for creating new quizzes
-- `convert_quiz.py` - Script to convert CSV to JSON
-- `*.json` - Individual quiz files 
+- `styles.css` - Styling
+- `questions.json` - Sample Cold War quiz
+- `spanish_questions.json` - Sample Spanish quiz
+- `algebra2_questions.json` - Sample Algebra 2 quiz
+
+## Contributing
+
+Feel free to add new quiz files or improve the existing ones. When adding new quizzes, please ensure they follow the JSON structure shown above.
+
+## License
+
+This project is open source and available under the MIT License. 
