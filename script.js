@@ -24,7 +24,7 @@ const restartQuizBtn = document.getElementById('restart-quiz');
 const backToTopicsBtn = document.getElementById('back-to-topics');
 const backToTopicsFinalBtn = document.getElementById('back-to-topics-final');
 
-// List of known quiz files - add new files here
+// List of known quiz files
 const quizFiles = [
     'questions.json',
     'spanish_questions.json',
@@ -86,154 +86,112 @@ function displayTopics(quizzes) {
     });
 }
 
-// Load specific quiz
+// Load a specific quiz
 async function loadQuiz(quizFile) {
     try {
         const response = await fetch(quizFile);
+        if (!response.ok) {
+            throw new Error(`Failed to load quiz: ${response.statusText}`);
+        }
         quizData = await response.json();
         
-        // Update quiz information
+        // Update UI with quiz info
         quizTitle.textContent = quizData.title;
         quizDescription.textContent = quizData.description;
-        totalQuestionsDisplay.textContent = quizData.totalQuestions;
+        totalQuestionsDisplay.textContent = quizData.questions.length;
         
         // Reset quiz state
         currentQuestionIndex = 0;
         score = 0;
-        scoreDisplay.textContent = '0';
+        updateScore();
+        updateProgress();
         
-        // Show quiz screen
+        // Show first question
+        showQuestion();
+        
+        // Switch to quiz screen
         topicSelection.style.display = 'none';
         quizScreen.style.display = 'block';
         finalScoreScreen.style.display = 'none';
-        
-        // Start the quiz
-        displayCard();
     } catch (error) {
-        console.error('Error loading quiz data:', error);
-        questionText.textContent = 'Error loading quiz data. Please try again later.';
+        console.error('Error loading quiz:', error);
+        alert('Error loading quiz. Please try again later.');
     }
 }
 
-function displayCard() {
+// Show current question
+function showQuestion() {
     const question = quizData.questions[currentQuestionIndex];
     questionText.textContent = question.question;
-    
-    // Clear previous options
-    answerText.innerHTML = '';
-    
-    // Create radio buttons for each option
-    question.options.forEach((option, index) => {
-        const optionDiv = document.createElement('div');
-        optionDiv.className = 'option';
-        
-        const radio = document.createElement('input');
-        radio.type = 'radio';
-        radio.name = 'answer';
-        radio.id = `option${index}`;
-        radio.value = index;
-        
-        const label = document.createElement('label');
-        label.htmlFor = `option${index}`;
-        label.textContent = option;
-        
-        optionDiv.appendChild(radio);
-        optionDiv.appendChild(label);
-        answerText.appendChild(optionDiv);
-    });
-    
-    // Update progress
-    const progress = ((currentQuestionIndex) / quizData.totalQuestions) * 100;
-    progressFill.style.width = `${progress}%`;
-    currentQuestionDisplay.textContent = currentQuestionIndex + 1;
-    
-    // Reset button states
+    answerText.textContent = question.answer;
+    answerText.style.display = 'none';
     checkAnswerBtn.style.display = 'block';
     nextCardBtn.style.display = 'none';
+    currentQuestionDisplay.textContent = currentQuestionIndex + 1;
 }
 
+// Check answer
 function checkAnswer() {
-    const selectedOption = document.querySelector('input[name="answer"]:checked');
-    if (!selectedOption) {
-        alert('Please select an answer');
-        return;
-    }
-    
-    const selectedAnswer = parseInt(selectedOption.value);
-    const question = quizData.questions[currentQuestionIndex];
-    
-    // Disable all radio buttons
-    document.querySelectorAll('input[name="answer"]').forEach(radio => {
-        radio.disabled = true;
-    });
-    
-    // Show correct/incorrect feedback
-    const options = document.querySelectorAll('.option');
-    options.forEach((option, index) => {
-        if (index === question.answer) {
-            option.style.backgroundColor = '#d4edda';
-            option.style.borderColor = '#c3e6cb';
-        } else if (index === selectedAnswer && selectedAnswer !== question.answer) {
-            option.style.backgroundColor = '#f8d7da';
-            option.style.borderColor = '#f5c6cb';
-        }
-    });
-    
-    // Update score if correct
-    if (selectedAnswer === question.answer) {
-        score++;
-        scoreDisplay.textContent = score;
-    }
-    
-    // Show explanation
-    const explanationDiv = document.createElement('div');
-    explanationDiv.className = 'explanation';
-    explanationDiv.textContent = question.explanation;
-    answerText.appendChild(explanationDiv);
-    
-    // Show next button
+    answerText.style.display = 'block';
     checkAnswerBtn.style.display = 'none';
     nextCardBtn.style.display = 'block';
 }
 
-function nextCard() {
+// Move to next question
+function nextQuestion() {
     currentQuestionIndex++;
-    
-    if (currentQuestionIndex < quizData.totalQuestions) {
-        displayCard();
+    if (currentQuestionIndex < quizData.questions.length) {
+        showQuestion();
     } else {
         showFinalScore();
     }
+    updateProgress();
 }
 
+// Update progress bar
+function updateProgress() {
+    const progress = (currentQuestionIndex / quizData.questions.length) * 100;
+    progressFill.style.width = `${progress}%`;
+}
+
+// Update score display
+function updateScore() {
+    scoreDisplay.textContent = score;
+}
+
+// Show final score
 function showFinalScore() {
-    const percentage = Math.round((score / quizData.totalQuestions) * 100);
+    const percentage = Math.round((score / quizData.questions.length) * 100);
     finalScoreDisplay.textContent = score;
-    totalScoreDisplay.textContent = quizData.totalQuestions;
-    percentageDisplay.textContent = percentage;
-    finalScoreScreen.style.display = 'flex';
-}
-
-function restartQuiz() {
-    currentQuestionIndex = 0;
-    score = 0;
-    scoreDisplay.textContent = '0';
-    finalScoreScreen.style.display = 'none';
-    displayCard();
-}
-
-function backToTopics() {
+    totalScoreDisplay.textContent = quizData.questions.length;
+    percentageDisplay.textContent = `${percentage}%`;
+    
     quizScreen.style.display = 'none';
-    finalScoreScreen.style.display = 'none';
-    topicSelection.style.display = 'block';
+    finalScoreScreen.style.display = 'block';
 }
 
 // Event Listeners
 checkAnswerBtn.addEventListener('click', checkAnswer);
-nextCardBtn.addEventListener('click', nextCard);
-restartQuizBtn.addEventListener('click', restartQuiz);
-backToTopicsBtn.addEventListener('click', backToTopics);
-backToTopicsFinalBtn.addEventListener('click', backToTopics);
+nextCardBtn.addEventListener('click', nextQuestion);
+restartQuizBtn.addEventListener('click', () => {
+    currentQuestionIndex = 0;
+    score = 0;
+    updateScore();
+    updateProgress();
+    showQuestion();
+    finalScoreScreen.style.display = 'none';
+    quizScreen.style.display = 'block';
+});
 
-// Start the application
+backToTopicsBtn.addEventListener('click', () => {
+    quizScreen.style.display = 'none';
+    topicSelection.style.display = 'block';
+});
+
+backToTopicsFinalBtn.addEventListener('click', () => {
+    finalScoreScreen.style.display = 'none';
+    topicSelection.style.display = 'block';
+});
+
+// Initialize the app
 loadQuizzes(); 
