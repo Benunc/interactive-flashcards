@@ -28,7 +28,8 @@ const backToTopicsFinalBtn = document.getElementById('back-to-topics-final');
 const quizFiles = [
     'questions.json',
     'spanish_questions.json',
-    'algebra2_questions.json'
+    'algebra2_questions.json',
+    'history_unit8.json'
 ];
 
 // Load and display available quizzes

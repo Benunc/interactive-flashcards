@@ -1,0 +1,262 @@
+{
+  "title": "History Unit 8",
+  "description": "A set of 50 questions covering the Civil Rights era and the Vietnam War.",
+  "questions": [
+    {
+      "question": "Which method did Martin Luther King Jr. most strongly advocate for achieving social change?",
+      "options": ["Armed resistance", "Nonviolent protest", "Economic sanctions", "Political lobbying only"],
+      "answer": 1,
+      "explanation": "Martin Luther King Jr. was a proponent of nonviolent protest as the most effective way to achieve civil rights."
+    },
+    {
+      "question": "What was the legal significance of the Supreme Court's decision in Brown v. Board of Education?",
+      "options": ["It upheld segregation in schools", "It declared school segregation unconstitutional", "It ended the draft", "It created the NAACP"],
+      "answer": 1,
+      "explanation": "Brown v. Board of Education (1954) declared that segregated schools were inherently unequal and unconstitutional."
+    },
+    {
+      "question": "Which law banned discrimination in public accommodations and employment in the United States?",
+      "options": ["Voting Rights Act of 1965", "Civil Rights Act of 1964", "War Powers Act", "Affordable Care Act"],
+      "answer": 1,
+      "explanation": "The Civil Rights Act of 1964 outlawed discrimination based on race, color, religion, sex, or national origin."
+    },
+    {
+      "question": "What was a major outcome of the Voting Rights Act of 1965?",
+      "options": ["It ended poll taxes", "It banned literacy tests for voting", "It created the EPA", "It established the draft lottery"],
+      "answer": 1,
+      "explanation": "The Voting Rights Act of 1965 banned literacy tests and other barriers to voting for African Americans."
+    },
+    {
+      "question": "Which event began after Rosa Parks refused to give up her seat on a bus in Alabama?",
+      "options": ["Freedom Rides", "Montgomery Bus Boycott", "March on Washington", "Selma to Montgomery March"],
+      "answer": 1,
+      "explanation": "Rosa Parks' arrest sparked the Montgomery Bus Boycott, a pivotal event in the Civil Rights Movement."
+    },
+    {
+      "question": "What was the main goal of the Freedom Riders in 1961?",
+      "options": ["To desegregate interstate bus travel", "To protest the Vietnam War", "To support the draft", "To promote women's suffrage"],
+      "answer": 0,
+      "explanation": "Freedom Riders challenged segregation in interstate bus terminals across the South."
+    },
+    {
+      "question": "Which civil rights leader is most associated with the phrase 'by any means necessary'?",
+      "options": ["Martin Luther King Jr.", "Malcolm X", "John Lewis", "Thurgood Marshall"],
+      "answer": 1,
+      "explanation": "Malcolm X advocated for Black empowerment and self-defense 'by any means necessary.'"
+    },
+    {
+      "question": "Which Supreme Court case established the 'separate but equal' doctrine?",
+      "options": ["Brown v. Board of Education", "Plessy v. Ferguson", "Miranda v. Arizona", "Gideon v. Wainwright"],
+      "answer": 1,
+      "explanation": "Plessy v. Ferguson (1896) upheld racial segregation under the 'separate but equal' doctrine."
+    },
+    {
+      "question": "Who became a symbol of the civil rights movement after refusing to give up her seat on a segregated bus?",
+      "options": ["Rosa Parks", "Harriet Tubman", "Shirley Chisholm", "Fannie Lou Hamer"],
+      "answer": 0,
+      "explanation": "Rosa Parks' act of defiance led to the Montgomery Bus Boycott."
+    },
+    {
+      "question": "Which university was the site of a deadly National Guard shooting during a Vietnam War protest in 1970?",
+      "options": ["Kent State University", "Harvard University", "UCLA", "University of Alabama"],
+      "answer": 0,
+      "explanation": "The Kent State shootings resulted in the deaths of four students during an anti-war protest."
+    },
+    {
+      "question": "Which U.S. president introduced the policy of Vietnamization during the Vietnam War?",
+      "options": ["Lyndon B. Johnson", "Richard Nixon", "John F. Kennedy", "Gerald Ford"],
+      "answer": 1,
+      "explanation": "President Nixon's Vietnamization policy aimed to shift combat responsibility to South Vietnamese forces."
+    },
+    {
+      "question": "What term described the growing distrust between the U.S. government and the public during the Vietnam War?",
+      "options": ["Iron Curtain", "Credibility Gap", "Domino Theory", "Great Society"],
+      "answer": 1,
+      "explanation": "The 'credibility gap' referred to the public's skepticism about government statements on the Vietnam War."
+    },
+    {
+      "question": "Which domestic program was a major focus of Lyndon B. Johnson's presidency?",
+      "options": ["Great Society", "New Deal", "Square Deal", "Fair Deal"],
+      "answer": 0,
+      "explanation": "LBJ's Great Society aimed to eliminate poverty and racial injustice in the U.S."
+    },
+    {
+      "question": "Who led the communist government in North Vietnam during the Vietnam War?",
+      "options": ["Ngo Dinh Diem", "Ho Chi Minh", "Pol Pot", "Mao Zedong"],
+      "answer": 1,
+      "explanation": "Ho Chi Minh was the leader of North Vietnam and a symbol of Vietnamese communism."
+    },
+    {
+      "question": "Where did the majority of anti-Vietnam War demonstrations take place in the U.S.?",
+      "options": ["Universities", "Shopping malls", "Rural towns", "Military bases"],
+      "answer": 0,
+      "explanation": "Universities were centers of anti-war activism during the Vietnam era."
+    },
+    {
+      "question": "Which technological advancement changed how Americans experienced the Vietnam War?",
+      "options": ["Television", "Radio", "Internet", "Telegraph"],
+      "answer": 0,
+      "explanation": "Television brought graphic images of the Vietnam War into American homes, influencing public opinion."
+    },
+    {
+      "question": "What was the name of the communist guerrilla fighters in South Vietnam?",
+      "options": ["Vietcong", "Vietminh", "Khmer Rouge", "Pathet Lao"],
+      "answer": 0,
+      "explanation": "The Vietcong were communist insurgents fighting against South Vietnam and the U.S."
+    },
+    {
+      "question": "How did Vietnam's geography affect U.S. military strategy during the war?",
+      "options": ["Dense jungles favored guerrilla tactics", "Deserts made supply lines difficult", "Mountains prevented air attacks", "Rivers blocked troop movement"],
+      "answer": 0,
+      "explanation": "Vietnam's jungles allowed the Vietcong to use guerrilla tactics against U.S. forces."
+    },
+    {
+      "question": "What symbolic act did many young Americans perform to protest the Vietnam War draft?",
+      "options": ["Burning draft cards", "Marching in parades", "Wearing black armbands", "Writing to Congress"],
+      "answer": 0,
+      "explanation": "Burning draft cards was a common form of protest against the Vietnam War draft."
+    },
+    {
+      "question": "What was the main goal of the U.S. policy of containment?",
+      "options": ["Prevent the spread of communism", "Expand U.S. territory", "Promote free trade", "Reduce taxes"],
+      "answer": 0,
+      "explanation": "Containment aimed to stop the spread of communism worldwide."
+    },
+    {
+      "question": "Which law was passed to limit the president's power to send troops into combat without congressional approval?",
+      "options": ["War Powers Act", "Patriot Act", "Civil Rights Act", "Voting Rights Act"],
+      "answer": 0,
+      "explanation": "The War Powers Act of 1973 restricted the president's ability to deploy troops without Congress."
+    },
+    {
+      "question": "Which chemical used by the U.S. military in Vietnam caused long-term health and environmental problems?",
+      "options": ["Agent Orange", "Mustard Gas", "Chlorine", "DDT"],
+      "answer": 0,
+      "explanation": "Agent Orange was a defoliant linked to serious health and environmental issues."
+    },
+    {
+      "question": "What was the primary objective of U.S. involvement in the Vietnam War?",
+      "options": ["Stop the spread of communism", "Gain territory", "Control oil resources", "Support French colonialism"],
+      "answer": 0,
+      "explanation": "The U.S. entered Vietnam to prevent the spread of communism in Southeast Asia."
+    },
+    {
+      "question": "Which U.S. law was designed to stimulate the economy during the Great Recession?",
+      "options": ["American Recovery and Reinvestment Act", "Affordable Care Act", "Patriot Act", "No Child Left Behind"],
+      "answer": 0,
+      "explanation": "The American Recovery and Reinvestment Act was passed in 2009 to boost the economy."
+    },
+    {
+      "question": "Who was the Iraqi leader removed from power by U.S. forces in 2003?",
+      "options": ["Saddam Hussein", "Osama bin Laden", "Ayatollah Khomeini", "Muammar Gaddafi"],
+      "answer": 0,
+      "explanation": "Saddam Hussein was overthrown during the Iraq War in 2003."
+    },
+    {
+      "question": "Which natural disaster in 2005 led to widespread criticism of the federal government's response?",
+      "options": ["Hurricane Katrina", "Hurricane Sandy", "Hurricane Andrew", "Hurricane Harvey"],
+      "answer": 0,
+      "explanation": "Hurricane Katrina devastated New Orleans and exposed flaws in disaster response."
+    },
+    {
+      "question": "What major event in 2001 led to the creation of the Department of Homeland Security?",
+      "options": ["September 11 terrorist attacks", "Hurricane Katrina", "Oklahoma City bombing", "Columbine shooting"],
+      "answer": 0,
+      "explanation": "The 9/11 attacks prompted the creation of the Department of Homeland Security."
+    },
+    {
+      "question": "Which term describes the increasing interconnectedness of economies and cultures worldwide?",
+      "options": ["Globalization", "Isolationism", "Federalism", "Urbanization"],
+      "answer": 0,
+      "explanation": "Globalization refers to the growing connections between countries in trade, culture, and technology."
+    },
+    {
+      "question": "Which cabinet department was created in response to the 9/11 attacks?",
+      "options": ["Homeland Security", "Energy", "Education", "Veterans Affairs"],
+      "answer": 0,
+      "explanation": "The Department of Homeland Security was established to coordinate national security efforts."
+    },
+    {
+      "question": "Which terrorist group was responsible for the September 11, 2001 attacks?",
+      "options": ["al-Qaida", "ISIS", "Hamas", "Hezbollah"],
+      "answer": 0,
+      "explanation": "al-Qaida, led by Osama bin Laden, orchestrated the 9/11 attacks."
+    },
+    {
+      "question": "Which agreement brokered by the U.S. led to peace between Egypt and Israel in 1978?",
+      "options": ["Camp David Accords", "Oslo Accords", "Geneva Convention", "Treaty of Versailles"],
+      "answer": 0,
+      "explanation": "The Camp David Accords established peace between Egypt and Israel."
+    },
+    {
+      "question": "What international crisis involved American hostages being held in Iran from 1979 to 1981?",
+      "options": ["Iran Hostage Crisis", "Cuban Missile Crisis", "Suez Crisis", "Bay of Pigs Invasion"],
+      "answer": 0,
+      "explanation": "The Iran Hostage Crisis saw 52 Americans held captive in Tehran for 444 days."
+    },
+    {
+      "question": "Which U.S. president's inauguration coincided with the release of American hostages from Iran?",
+      "options": ["Ronald Reagan", "Jimmy Carter", "George H.W. Bush", "Bill Clinton"],
+      "answer": 0,
+      "explanation": "The hostages were released on the day Ronald Reagan was inaugurated in 1981."
+    },
+    {
+      "question": "What was the nickname for Reagan's proposed missile defense system in the 1980s?",
+      "options": ["Star Wars", "Iron Dome", "Patriot Shield", "Sky Net"],
+      "answer": 0,
+      "explanation": "The Strategic Defense Initiative was popularly known as 'Star Wars.'"
+    },
+    {
+      "question": "Which country was called the 'Evil Empire' by President Reagan in a 1983 speech?",
+      "options": ["Soviet Union", "China", "Iran", "North Korea"],
+      "answer": 0,
+      "explanation": "Reagan used the term 'Evil Empire' to describe the Soviet Union."
+    },
+    {
+      "question": "Which structure did President Reagan famously urge to be torn down in Berlin?",
+      "options": ["Berlin Wall", "Brandenburg Gate", "Iron Curtain", "Checkpoint Charlie"],
+      "answer": 0,
+      "explanation": "Reagan's 'tear down this wall' speech referred to the Berlin Wall."
+    },
+    {
+      "question": "Who was the first woman appointed to the U.S. Supreme Court?",
+      "options": ["Sandra Day O'Connor", "Ruth Bader Ginsburg", "Sonia Sotomayor", "Elena Kagan"],
+      "answer": 0,
+      "explanation": "Sandra Day O'Connor was appointed by President Reagan in 1981."
+    },
+    {
+      "question": "During which president's administration did the U.S. experience its longest period of economic growth?",
+      "options": ["Bill Clinton", "Ronald Reagan", "George W. Bush", "Barack Obama"],
+      "answer": 0,
+      "explanation": "The U.S. saw its longest economic expansion during the Clinton years."
+    },
+    {
+      "question": "Which U.S. president helped facilitate peace talks between Israel and Palestine in the 1990s?",
+      "options": ["Bill Clinton", "George H.W. Bush", "Jimmy Carter", "Barack Obama"],
+      "answer": 0,
+      "explanation": "Bill Clinton hosted the Oslo Accords and other peace negotiations."
+    },
+    {
+      "question": "What was the result of the impeachment proceedings against President Bill Clinton?",
+      "options": ["He was acquitted and remained in office", "He resigned", "He was removed from office", "He was convicted in the Senate"],
+      "answer": 0,
+      "explanation": "Clinton was impeached by the House but acquitted by the Senate and remained president."
+    },
+    {
+      "question": "What is the main purpose of NAFTA?",
+      "options": ["To eliminate trade barriers between the U.S., Canada, and Mexico", "To create a single currency", "To establish a military alliance", "To promote environmental protection"],
+      "answer": 0,
+      "explanation": "NAFTA aimed to increase trade by removing tariffs and other barriers between the U.S., Canada, and Mexico."
+    },
+    {
+      "question": "Which law, passed in 2010, aimed to expand health insurance coverage in the U.S.?",
+      "options": ["Affordable Care Act", "Patriot Act", "No Child Left Behind", "Social Security Act"],
+      "answer": 0,
+      "explanation": "The Affordable Care Act, or 'Obamacare,' expanded access to health insurance."
+    },
+    {
+      "question": "Who became the first African-American president of the United States in 2009?",
+      "explanation": "Liberalism generally supports government intervention to address social and economic inequalities."
+    }
+  ]
+} 
