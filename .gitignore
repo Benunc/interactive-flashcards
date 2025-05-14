@@ -6,4 +6,6 @@ __pycache__/
 venv/
 ENV/
 convert_quiz.py
-quiz_template.csv 
+quiz_template.csv
+# Ignore all text files
+*.txt 
