@@ -8,4 +8,5 @@ ENV/
 convert_quiz.py
 quiz_template.csv
 # Ignore all text files
-*.txt 
+*.txt
+randomize_history_unit8.py 
