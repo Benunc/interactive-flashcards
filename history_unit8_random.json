@@ -1,0 +1,578 @@
+{
+  "title": "History Unit 8 (Randomized)",
+  "description": "A randomized set of 50 questions covering the Civil Rights era, Vietnam War, and modern history.",
+  "questions": [
+    {
+      "question": "What was the nickname given to Reagan's Strategic Defense Initiative (SDI), which proposed nuclear defense from space?",
+      "options": [
+        "Space Force",
+        "Star Wars",
+        "Star Trek",
+        "Ender's Game"
+      ],
+      "answer": 1,
+      "explanation": "The Strategic Defense Initiative was popularly known as 'Star Wars.'"
+    },
+    {
+      "question": "What was the purpose of the Civil Rights Act of 1964?",
+      "options": [
+        "It made Jim Crow Laws illegal",
+        "It allowed African-Americans to run for political office",
+        "It ended segregation in school",
+        "It made poll taxes illegal"
+      ],
+      "answer": 0,
+      "explanation": "The Civil Rights Act of 1964 outlawed discrimination based on race, color, religion, sex, or national origin, effectively making Jim Crow Laws illegal."
+    },
+    {
+      "question": "Which chemical was used by the U.S. military as a defoliant during the Vietnam War, causing long-term health issues and environmental damage?",
+      "options": [
+        "DDT",
+        "Napalm",
+        "Mustard Gas",
+        "Agent Orange"
+      ],
+      "answer": 3,
+      "explanation": "Agent Orange was a defoliant linked to serious health and environmental issues."
+    },
+    {
+      "question": "What kind of marches did Martin Luther King Jr. lead?",
+      "options": [
+        "large",
+        "mad",
+        "violent",
+        "nonviolent"
+      ],
+      "answer": 3,
+      "explanation": "Martin Luther King Jr. was a proponent of nonviolent protest and civil disobedience."
+    },
+    {
+      "question": "The longest period of economic growth happened during who's administration?",
+      "options": [
+        "Barack Obama",
+        "Ronald Reagan",
+        "George W. Bush",
+        "Bill Clinton"
+      ],
+      "answer": 3,
+      "explanation": "The U.S. saw its longest economic expansion during the Clinton years."
+    },
+    {
+      "question": "What was the result of the Brown v. Board of Education case?",
+      "options": [
+        "African-Americans began playing profession sports",
+        "Rosa Parks refused to give up her seat on the bus",
+        "MLK led a March on Washington",
+        "Segregation in public schools became illegal"
+      ],
+      "answer": 3,
+      "explanation": "Brown v. Board of Education declared that segregated schools were inherently unequal and unconstitutional."
+    },
+    {
+      "question": "Which group was responsible for 9/11?",
+      "options": [
+        "al-Qaida",
+        "Hamas",
+        "Hezbollah",
+        "KKK"
+      ],
+      "answer": 0,
+      "explanation": "al-Qaida, led by Osama bin Laden, orchestrated the 9/11 attacks."
+    },
+    {
+      "question": "What protest would Martin Luther King have opposed?",
+      "options": [
+        "Sit-In",
+        "Bus Boycott",
+        "March on Washington",
+        "Race Riots"
+      ],
+      "answer": 3,
+      "explanation": "Martin Luther King Jr. was a proponent of nonviolent protest and would have opposed violent race riots."
+    },
+    {
+      "question": "Which political ideology typically emphasizes the preservation of tradition, limited government, and personal responsibility?",
+      "options": [
+        "Liberalism",
+        "Conservatism",
+        "Socialism",
+        "Communism"
+      ],
+      "answer": 1,
+      "explanation": "Conservatism emphasizes traditional values, limited government intervention, and individual responsibility."
+    },
+    {
+      "question": "What did young people burn to protest the Vietnam War?",
+      "options": [
+        "drivers' license",
+        "American flags",
+        "newspapers",
+        "draft card"
+      ],
+      "answer": 3,
+      "explanation": "Burning draft cards was a common form of protest against the Vietnam War draft."
+    },
+    {
+      "question": "What is Barack Obama most famous for?",
+      "options": [
+        "Being the first African-American president",
+        "An author of non-fiction books",
+        "Being a Supreme Court justice",
+        "Being a military general"
+      ],
+      "answer": 0,
+      "explanation": "Barack Obama was elected as the first African-American president in 2008 and took office in 2009."
+    },
+    {
+      "question": "The Vietnam war prevented LBJ from focusing on what agenda?",
+      "options": [
+        "The Fair Deal",
+        "The Great Society",
+        "The New Frontier",
+        "The Square Deal"
+      ],
+      "answer": 1,
+      "explanation": "The Vietnam War diverted resources and attention from LBJ's Great Society programs."
+    },
+    {
+      "question": "What is the nickname often used in the press for the Affordable Healthcare Act?",
+      "options": [
+        "Medicare",
+        "Medicaid",
+        "Trumpcare",
+        "Obamacare"
+      ],
+      "answer": 3,
+      "explanation": "The Affordable Care Act is commonly known as 'Obamacare.'"
+    },
+    {
+      "question": "Which supreme court case ruled that separation is okay so long as it is equal?",
+      "options": [
+        "Dred Scott v. Sanford",
+        "Plessy V. Ferguson",
+        "Marbury v. Madison",
+        "Miranda v. Arizona"
+      ],
+      "answer": 1,
+      "explanation": "Plessy v. Ferguson (1896) established the 'separate but equal' doctrine that was later overturned by Brown v. Board of Education."
+    },
+    {
+      "question": "The government was criticized for its mismanagement of Hurricane ____ that hit New Orleans.",
+      "options": [
+        "Ivan",
+        "Dennis",
+        "Katrina",
+        "Sandy"
+      ],
+      "answer": 2,
+      "explanation": "Hurricane Katrina devastated New Orleans and exposed flaws in disaster response."
+    },
+    {
+      "question": "What is a common economic stance among liberals related to taxation?",
+      "options": [
+        "Lower taxes for all",
+        "Higher taxes on the wealthy",
+        "Elimination of all taxes",
+        "Flat tax rate for everyone"
+      ],
+      "answer": 1,
+      "explanation": "Liberals often support progressive taxation, with higher rates for wealthier individuals."
+    },
+    {
+      "question": "The Freedom Riders were a group of African Americans and Whites who rode buses to..?",
+      "options": [
+        "Encourage A.A.'s to leave the south and move north",
+        "to protest racial segregation throughout the south",
+        "to promote membership in the KKK",
+        "to gain support for the Vietnam war"
+      ],
+      "answer": 1,
+      "explanation": "Freedom Riders challenged segregation in interstate bus terminals across the South."
+    },
+    {
+      "question": "What was the main objective of the United States in the Vietnam War?",
+      "options": [
+        "To spread communism in Southeast Asia",
+        "To gain territorial control over Vietnam",
+        "To support South Vietnam in stopping the spread of communism",
+        "To colonize Vietnam"
+      ],
+      "answer": 2,
+      "explanation": "The U.S. entered Vietnam to prevent the spread of communism in Southeast Asia."
+    },
+    {
+      "question": "Which ideology emphasizes the pursuit of social justice, inclusivity, and diversity in society?",
+      "options": [
+        "Conservatism",
+        "Liberalism",
+        "Fascism",
+        "Communism"
+      ],
+      "answer": 1,
+      "explanation": "Liberalism emphasizes social justice, inclusivity, and diversity as core values."
+    },
+    {
+      "question": "What happened to Clinton after he lied under oath about his relationship with White House intern Monica Lewinsky?",
+      "options": [
+        "He was removed from office",
+        "He was convicted in the Senate",
+        "He resigned",
+        "He was acquitted and remained in office"
+      ],
+      "answer": 3,
+      "explanation": "Clinton was impeached by the House but acquitted by the Senate and remained president."
+    },
+    {
+      "question": "The government says one thing, and media another, this was known as what?",
+      "options": [
+        "Credit Check",
+        "Fake News",
+        "Credibility Gap",
+        "Credibility Old Navy"
+      ],
+      "answer": 2,
+      "explanation": "The 'credibility gap' referred to the public's skepticism about government statements on the Vietnam War."
+    },
+    {
+      "question": "What does NAFTA stand for?",
+      "options": [
+        "North American Free Trade Agreement",
+        "North American Financial Trade Association",
+        "North American Foreign Trade Alliance",
+        "North American Federal Trade Agreement"
+      ],
+      "answer": 0,
+      "explanation": "NAFTA aimed to increase trade by removing tariffs and other barriers between the U.S., Canada, and Mexico."
+    },
+    {
+      "question": "Which event prompted this speech by President Bush?",
+      "options": [
+        "The attacks on the World Trade Center and the Pentagon",
+        "The attack on the USS Cole",
+        "The mail-bombing campaign of the Unabomber",
+        "The bombing of a federal building in Oklahoma City"
+      ],
+      "answer": 0,
+      "explanation": "The 9/11 attacks prompted the creation of the Department of Homeland Security."
+    },
+    {
+      "question": "What Cold War symbol was President Reagan referring to in this speech?",
+      "options": [
+        "The Brandenburg Gate",
+        "The Great Wall of China",
+        "The Iron Curtain",
+        "The Berlin Wall"
+      ],
+      "answer": 3,
+      "explanation": "Reagan's 'tear down this wall' speech referred to the Berlin Wall."
+    },
+    {
+      "question": "Which core principle of liberalism promotes the idea that government should actively address issues like income inequality and discrimination?",
+      "options": [
+        "Limited government",
+        "Social justice",
+        "Free market",
+        "Traditional values"
+      ],
+      "answer": 1,
+      "explanation": "Social justice is a core principle of liberalism that emphasizes government action to address inequality."
+    },
+    {
+      "question": "The PATRIOT Act, increased airport security, and the Homeland Security Dept. resulted from",
+      "options": [
+        "the loss of troops in Mogadishu",
+        "the attacks on Oklahoma City Federal Building",
+        "the attacks on 9/11",
+        "the ethnic cleansing in Bosnia"
+      ],
+      "answer": 2,
+      "explanation": "The 9/11 attacks led to major changes in U.S. security policy."
+    },
+    {
+      "question": "What effect did the geography of Vietnam have on fighting during the Vietnam War?",
+      "options": [
+        "Viet Cong forces took the fighting into the dense jungles where they could confuse the Americans.",
+        "Viet Cong forces preferred to limit most fighting to cities where they fought most effectively.",
+        "American forces learned to keep the fighting away from the jungles.",
+        "American forces committed to fighting the war only from the air."
+      ],
+      "answer": 0,
+      "explanation": "Vietnam's jungles allowed the Vietcong to use guerrilla tactics against U.S. forces."
+    },
+    {
+      "question": "The American Hostage Crisis in Iran was caused in part by",
+      "options": [
+        "the American government allowing the deposed Shah of Iran to come to the US for cancer treatment",
+        "Carter's involvement in arranging the Camp David accords between the Egyptians and the Israelis",
+        "American air strikes against Iran's ally, Libya",
+        "American attempts to overthrow the government of Ayatollah Khomeini"
+      ],
+      "answer": 0,
+      "explanation": "The Iran Hostage Crisis began when the U.S. allowed the deposed Shah to enter the country for medical treatment."
+    },
+    {
+      "question": "Which of the following principles is commonly associated with conservatism?",
+      "options": [
+        "Government intervention in the economy",
+        "Progressive taxation",
+        "Limited government",
+        "Universal healthcare"
+      ],
+      "answer": 2,
+      "explanation": "Limited government is a fundamental principle of conservatism."
+    },
+    {
+      "question": "What specifically from the Bill of Rights does this cartoon imply the Patriot Act destroys?",
+      "options": [
+        "Freedom of speech",
+        "Right to bear arms",
+        "Right to privacy",
+        "Right to a fair trial"
+      ],
+      "answer": 2,
+      "explanation": "The Patriot Act raised concerns about privacy rights due to increased surveillance powers."
+    },
+    {
+      "question": "The trend of businesses, technologies or beliefs to spread around the world is",
+      "options": [
+        "immigration",
+        "urbanization",
+        "culturalization",
+        "globalization"
+      ],
+      "answer": 3,
+      "explanation": "Globalization refers to the growing connections between countries in trade, culture, and technology."
+    },
+    {
+      "question": "Which action of Congress was a response to the long-term military involvement of the United States in Vietnam?",
+      "options": [
+        "Congress passed the War Powers Act to limit presidential power",
+        "Congress conducted surveys to measure public response to the war",
+        "Congress passed the Twenty-sixth Amendment to increase the voting age",
+        "Congress reinstated the draft to assure better military preparation in the future"
+      ],
+      "answer": 0,
+      "explanation": "The War Powers Act of 1973 restricted the president's ability to deploy troops without Congress."
+    },
+    {
+      "question": "What kind of government did Ho Chi Minh establish?",
+      "options": [
+        "Democracy",
+        "Socialism",
+        "Monarchy",
+        "Communism"
+      ],
+      "answer": 3,
+      "explanation": "Ho Chi Minh established a communist government in North Vietnam."
+    },
+    {
+      "question": "The Camp David Accords were an agreement between ________ and Israel.",
+      "options": [
+        "Egypt",
+        "China",
+        "Syria",
+        "Iran"
+      ],
+      "answer": 0,
+      "explanation": "The Camp David Accords established peace between Egypt and Israel."
+    },
+    {
+      "question": "What was the purpose of the Voting Rights Act of 1965?",
+      "options": [
+        "It gave African-American women the right to vote",
+        "It made literacy tests to vote illegal",
+        "It made Jim Crow Laws illegal",
+        "It allowed all African-Americans to vote"
+      ],
+      "answer": 1,
+      "explanation": "The Voting Rights Act of 1965 banned literacy tests and other barriers to voting for African Americans."
+    },
+    {
+      "question": "Which civil rights leader advocated separation for African Americans and was opposed to integration?",
+      "options": [
+        "Martin Luther King",
+        "Medgar Evers",
+        "Malcolm X",
+        "Eldrige Cleaver"
+      ],
+      "answer": 2,
+      "explanation": "Malcolm X initially advocated for Black separatism before his views evolved later in life."
+    },
+    {
+      "question": "How was Vietnam covered differently by the media than previous wars?",
+      "options": [
+        "radio",
+        "internet",
+        "newsreels",
+        "television"
+      ],
+      "answer": 3,
+      "explanation": "Television brought graphic images of the Vietnam War into American homes, influencing public opinion."
+    },
+    {
+      "question": "This dictator was removed from power in Iraq by George W. Bush",
+      "options": [
+        "Osama Bin Laden",
+        "Mr. Pickles",
+        "Adolph Hitler",
+        "Saddam Hussein"
+      ],
+      "answer": 3,
+      "explanation": "Saddam Hussein was overthrown during the Iraq War in 2003."
+    },
+    {
+      "question": "Which act stimulated the US economy by saving jobs and creating new ones?",
+      "options": [
+        "Emergency Economic Stabilization Act",
+        "American Recovery and Reinvestment Act",
+        "USA Patriot Act",
+        "Dodd Frank Wall Street Reform and Consumer Protection Act"
+      ],
+      "answer": 1,
+      "explanation": "The American Recovery and Reinvestment Act was passed in 2009 to boost the economy."
+    },
+    {
+      "question": "What is the main idea of the cartoon?",
+      "options": [
+        "There was strong disagreement in the US about American involvement in the Vietnam War",
+        "A sizable anti-war movement emerged in the US over the war",
+        "Most Americans feared if Vietnam fell to Communism, neighboring states would be threatened",
+        "Most Americans felt that conflict was a civil war and we should be involved"
+      ],
+      "answer": 0,
+      "explanation": "The cartoon illustrates the deep division in American society over the Vietnam War."
+    },
+    {
+      "question": "An African American women who was asked to give up her seat on the bus to a white man in Montgomery, Alabama was",
+      "options": [
+        "Harriet B. Stowe",
+        "Rosa Parks",
+        "Michelle Obama",
+        "Coretta King"
+      ],
+      "answer": 1,
+      "explanation": "Rosa Parks' refusal to give up her seat sparked the Montgomery Bus Boycott."
+    },
+    {
+      "question": "The U.S. got involved in Vietnam because of what foreign policy?",
+      "options": [
+        "Good Neighbor policy",
+        "isolationism",
+        "Roosevelt Corollary",
+        "containment"
+      ],
+      "answer": 3,
+      "explanation": "The U.S. entered Vietnam as part of its containment policy to prevent the spread of communism."
+    },
+    {
+      "question": "Name new cabinet position created by George Bush.",
+      "options": [
+        "Sec of State",
+        "Sec of Economy",
+        "Sec of Justice",
+        "Sec of Homeland"
+      ],
+      "answer": 3,
+      "explanation": "The Department of Homeland Security was established to coordinate national security efforts."
+    },
+    {
+      "question": "In his 'Evil Empire' Speech in 1983 President Reagan was condemning ____.",
+      "options": [
+        "The Iranian Hostage Crisis",
+        "The Soviet Union",
+        "The Helsinki Accords",
+        "The Strategic Defense Initiative"
+      ],
+      "answer": 1,
+      "explanation": "Reagan used the term 'Evil Empire' to describe the Soviet Union."
+    },
+    {
+      "question": "Most anti-war demonstrations took place where?",
+      "options": [
+        "large cities",
+        "small towns",
+        "shopping centers",
+        "universities"
+      ],
+      "answer": 3,
+      "explanation": "Universities were centers of anti-war activism during the Vietnam era."
+    },
+    {
+      "question": "South Vietnamese guerilla fighters; opposed Diem & supplied by Ho Chi Minh",
+      "options": [
+        "Vietminh",
+        "Flying Tigers",
+        "Indochinese",
+        "Vietcong"
+      ],
+      "answer": 3,
+      "explanation": "The Vietcong were communist insurgents fighting against South Vietnam and the U.S."
+    },
+    {
+      "question": "President __________ is credited with the plan of Vietnamization",
+      "options": [
+        "Ford",
+        "Reagan",
+        "Johnson",
+        "Nixon"
+      ],
+      "answer": 3,
+      "explanation": "President Nixon's Vietnamization policy aimed to shift combat responsibility to South Vietnamese forces."
+    },
+    {
+      "question": "What event caused a negative shift in U.S. public opinion during the Vietnam War?",
+      "options": [
+        "Gulf of Tonkin Resolution",
+        "The Geneva Accords",
+        "The Tet Offensive",
+        "Operation Rolling Thunder"
+      ],
+      "answer": 2,
+      "explanation": "The Tet Offensive showed that the war was not going as well as the government had claimed, leading to increased public opposition."
+    },
+    {
+      "question": "How was the Iran Hostage Crisis resolved?",
+      "options": [
+        "the hostages were all killed",
+        "the hostages were released as part of the agreement ending the Vietnam War",
+        "the hostages were freed upon Reagan's inauguration",
+        "the Camp David Accords led Israel to release the hostages"
+      ],
+      "answer": 2,
+      "explanation": "The hostages were released on the day Ronald Reagan was inaugurated in 1981."
+    },
+    {
+      "question": "At which University did the National Guard open fire upon protestors?",
+      "options": [
+        "K-State",
+        "Kansas",
+        "Kennesaw",
+        "Kent State"
+      ],
+      "answer": 3,
+      "explanation": "The Kent State shootings occurred during an anti-war protest in 1970."
+    },
+    {
+      "question": "Which of the following best describes the Montgomery Bus Boycott?",
+      "options": [
+        "Segregation on buses became illegal after a couple of days of boycotting",
+        "Segregation on buses became illegal after months of boycotting",
+        "African-Americans blocked the streets preventing buses from operating",
+        "Martin Luther King was arrested for not giving up his seat"
+      ],
+      "answer": 1,
+      "explanation": "The Montgomery Bus Boycott lasted for over a year before the Supreme Court ruled bus segregation unconstitutional."
+    },
+    {
+      "question": "Vietnamization was a policy advanced by Richard Nixon. What was its purpose?",
+      "options": [
+        "to increase American forces in Vietnam",
+        "to decrease American forces in Vietnam",
+        "to increase friendly Chinese forces in Vietnam",
+        "to overwhelm the Viet Cong with U.S. forces"
+      ],
+      "answer": 1,
+      "explanation": "Vietnamization aimed to gradually withdraw U.S. troops while building up South Vietnamese forces."
+    }
+  ]
+} 
