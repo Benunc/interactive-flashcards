@@ -135,7 +135,18 @@ function loadState() {
             if (isReviewMode) {
                 startReviewMode();
             } else {
-                showQuestion();
+                // If we have a saved state, move to the next question
+                // since the current one has been answered
+                currentQuestionIndex++;
+                if (currentQuestionIndex < quizData.questions.length) {
+                    showQuestion();
+                } else {
+                    if (!isReviewMode && incorrectQuestions.length > 0) {
+                        showReviewPrompt();
+                    } else {
+                        showFinalScore();
+                    }
+                }
             }
             
             return true;
@@ -332,7 +343,7 @@ function checkAnswer() {
     checkAnswerBtn.style.display = 'none';
     nextCardBtn.style.display = 'block';
     
-    // Save state after each answer
+    // Save state immediately after answering
     saveState();
 }
 
