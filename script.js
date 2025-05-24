@@ -1,3 +1,34 @@
+console.log('Script starting...');
+
+// Debug mode setup
+window.debug = {
+    enabled: false,
+    enable: function() {
+        this.enabled = true;
+        console.log('Debug mode enabled');
+    },
+    disable: function() {
+        this.enabled = false;
+        console.log('Debug mode disabled');
+    },
+    log: function(...args) {
+        if (this.enabled) {
+            console.log(...args);
+        }
+    },
+    error: function(...args) {
+        if (this.enabled) {
+            console.error(...args);
+        }
+    }
+};
+
+// Add error handler
+window.onerror = function(msg, url, lineNo, columnNo, error) {
+    window.debug.error('Error: ' + msg + '\nURL: ' + url + '\nLine: ' + lineNo + '\nColumn: ' + columnNo + '\nError object: ' + JSON.stringify(error));
+    return false;
+};
+
 let currentQuestionIndex = 0;
 let score = 0;
 let quizData = null;
@@ -45,49 +76,82 @@ const quizFiles = [
 
 // Save state to localStorage
 function saveState() {
-    if (!quizData) return;
+    window.debug.log('Attempting to save state...');
+    if (!quizData) {
+        window.debug.log('No quiz data to save');
+        return;
+    }
     
-    const state = {
-        quizFile: quizData.file,
-        incorrectQuestions: incorrectQuestions,
-        isReviewMode: isReviewMode,
-        currentQuestionIndex: currentQuestionIndex,
-        score: score
-    };
-    
-    localStorage.setItem(STORAGE_KEYS.CURRENT_QUIZ, JSON.stringify(state));
+    try {
+        const state = {
+            quizFile: quizData.file,
+            incorrectQuestions: incorrectQuestions,
+            isReviewMode: isReviewMode,
+            currentQuestionIndex: currentQuestionIndex,
+            score: score
+        };
+        
+        window.debug.log('Saving state:', state);
+        localStorage.setItem(STORAGE_KEYS.CURRENT_QUIZ, JSON.stringify(state));
+        window.debug.log('State saved successfully');
+    } catch (error) {
+        window.debug.error('Error saving state:', error);
+    }
 }
 
 // Load state from localStorage
 function loadState() {
-    const savedState = localStorage.getItem(STORAGE_KEYS.CURRENT_QUIZ);
-    if (!savedState) return false;
-    
-    const state = JSON.parse(savedState);
-    
-    // Load the quiz first
-    return loadQuiz(state.quizFile).then(() => {
-        incorrectQuestions = state.incorrectQuestions;
-        isReviewMode = state.isReviewMode;
-        currentQuestionIndex = state.currentQuestionIndex;
-        score = state.score;
+    window.debug.log('Attempting to load state...');
+    try {
+        const savedState = localStorage.getItem(STORAGE_KEYS.CURRENT_QUIZ);
+        window.debug.log('Loading saved state:', savedState);
         
-        // Update UI
-        updateScore();
-        updateProgress();
-        
-        if (isReviewMode) {
-            startReviewMode();
-        } else {
-            showQuestion();
+        if (!savedState) {
+            window.debug.log('No saved state found');
+            return false;
         }
         
-        return true;
-    });
+        const state = JSON.parse(savedState);
+        window.debug.log('Parsed state:', state);
+        
+        // Load the quiz first
+        return loadQuiz(state.quizFile).then(() => {
+            incorrectQuestions = state.incorrectQuestions;
+            isReviewMode = state.isReviewMode;
+            currentQuestionIndex = state.currentQuestionIndex;
+            score = state.score;
+            
+            window.debug.log('Restored state:', {
+                incorrectQuestions,
+                isReviewMode,
+                currentQuestionIndex,
+                score
+            });
+            
+            // Update UI
+            updateScore();
+            updateProgress();
+            
+            if (isReviewMode) {
+                startReviewMode();
+            } else {
+                showQuestion();
+            }
+            
+            return true;
+        }).catch(error => {
+            window.debug.error('Error loading quiz:', error);
+            return false;
+        });
+    } catch (error) {
+        window.debug.error('Error loading state:', error);
+        return false;
+    }
 }
 
 // Clear saved state
 function clearSavedState() {
+    window.debug.log('Clearing saved state');
     localStorage.removeItem(STORAGE_KEYS.CURRENT_QUIZ);
 }
 
@@ -398,12 +462,14 @@ restartQuizBtn.addEventListener('click', () => {
 });
 
 backToTopicsBtn.addEventListener('click', () => {
+    console.log('Back to topics button clicked - clearing state');
     quizScreen.style.display = 'none';
     topicSelection.style.display = 'block';
     clearSavedState();
 });
 
 backToTopicsFinalBtn.addEventListener('click', () => {
+    console.log('Back to topics final button clicked - clearing state');
     finalScoreScreen.style.display = 'none';
     topicSelection.style.display = 'block';
     clearSavedState();
@@ -421,4 +487,11 @@ async function initializeApp() {
 }
 
 // Start the app
-initializeApp(); 
+document.addEventListener('DOMContentLoaded', () => {
+    window.debug.log('DOM loaded, initializing app...');
+    try {
+        initializeApp();
+    } catch (error) {
+        window.debug.error('Error initializing app:', error);
+    }
+}); 
