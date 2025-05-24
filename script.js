@@ -486,8 +486,60 @@ backToTopicsFinalBtn.addEventListener('click', () => {
     clearSavedState();
 });
 
+// Add start over buttons to each screen
+function addStartOverButtons() {
+    // Add to topic selection screen
+    if (!document.getElementById('start-over-topics')) {
+        const topicStartOver = document.createElement('button');
+        topicStartOver.id = 'start-over-topics';
+        topicStartOver.className = 'start-over-btn';
+        topicStartOver.textContent = 'Delete Progress & Start Over';
+        topicSelection.appendChild(topicStartOver);
+        topicStartOver.addEventListener('click', startOver);
+    }
+
+    // Add to quiz screen
+    if (!document.getElementById('start-over-quiz')) {
+        const quizStartOver = document.createElement('button');
+        quizStartOver.id = 'start-over-quiz';
+        quizStartOver.className = 'start-over-btn';
+        quizStartOver.textContent = 'Delete Progress & Start Over';
+        document.querySelector('.controls').appendChild(quizStartOver);
+        quizStartOver.addEventListener('click', startOver);
+    }
+
+    // Add to final score screen
+    if (!document.getElementById('start-over-final')) {
+        const finalStartOver = document.createElement('button');
+        finalStartOver.id = 'start-over-final';
+        finalStartOver.className = 'start-over-btn';
+        finalStartOver.textContent = 'Delete Progress & Start Over';
+        finalScoreScreen.appendChild(finalStartOver);
+        finalStartOver.addEventListener('click', startOver);
+    }
+}
+
+// Start over function
+function startOver() {
+    if (confirm('Are you sure you want to delete all progress and start over?')) {
+        // Clear localStorage
+        localStorage.clear();
+        // Reset all state variables
+        currentQuestionIndex = 0;
+        score = 0;
+        quizData = null;
+        incorrectQuestions = [];
+        isReviewMode = false;
+        // Reload the page
+        window.location.reload();
+    }
+}
+
 // Initialize the app
 async function initializeApp() {
+    // Add start over buttons
+    addStartOverButtons();
+    
     // Try to load saved state first
     const stateLoaded = await loadState();
     
