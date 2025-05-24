@@ -1,6 +1,17 @@
 let currentQuestionIndex = 0;
 let score = 0;
 let quizData = null;
+let incorrectQuestions = []; // Track incorrect questions
+let isReviewMode = false; // Track if we're in review mode
+
+// Storage keys
+const STORAGE_KEYS = {
+    CURRENT_QUIZ: 'currentQuiz',
+    INCORRECT_QUESTIONS: 'incorrectQuestions',
+    REVIEW_MODE: 'reviewMode',
+    CURRENT_QUESTION: 'currentQuestion',
+    SCORE: 'score'
+};
 
 // DOM Elements
 const topicSelection = document.getElementById('topic-selection');
@@ -31,6 +42,54 @@ const quizFiles = [
     'history_unit8.json',
     'HistoryComprehensiveTest.json'
 ];
+
+// Save state to localStorage
+function saveState() {
+    if (!quizData) return;
+    
+    const state = {
+        quizFile: quizData.file,
+        incorrectQuestions: incorrectQuestions,
+        isReviewMode: isReviewMode,
+        currentQuestionIndex: currentQuestionIndex,
+        score: score
+    };
+    
+    localStorage.setItem(STORAGE_KEYS.CURRENT_QUIZ, JSON.stringify(state));
+}
+
+// Load state from localStorage
+function loadState() {
+    const savedState = localStorage.getItem(STORAGE_KEYS.CURRENT_QUIZ);
+    if (!savedState) return false;
+    
+    const state = JSON.parse(savedState);
+    
+    // Load the quiz first
+    return loadQuiz(state.quizFile).then(() => {
+        incorrectQuestions = state.incorrectQuestions;
+        isReviewMode = state.isReviewMode;
+        currentQuestionIndex = state.currentQuestionIndex;
+        score = state.score;
+        
+        // Update UI
+        updateScore();
+        updateProgress();
+        
+        if (isReviewMode) {
+            startReviewMode();
+        } else {
+            showQuestion();
+        }
+        
+        return true;
+    });
+}
+
+// Clear saved state
+function clearSavedState() {
+    localStorage.removeItem(STORAGE_KEYS.CURRENT_QUIZ);
+}
 
 // Load and display available quizzes
 async function loadQuizzes() {
@@ -95,6 +154,7 @@ async function loadQuiz(quizFile) {
             throw new Error(`Failed to load quiz: ${response.statusText}`);
         }
         quizData = await response.json();
+        quizData.file = quizFile; // Store the file name for state restoration
         
         // Update UI with quiz info
         quizTitle.textContent = quizData.title;
@@ -104,6 +164,8 @@ async function loadQuiz(quizFile) {
         // Reset quiz state
         currentQuestionIndex = 0;
         score = 0;
+        incorrectQuestions = [];
+        isReviewMode = false;
         updateScore();
         updateProgress();
         
@@ -114,9 +176,12 @@ async function loadQuiz(quizFile) {
         topicSelection.style.display = 'none';
         quizScreen.style.display = 'block';
         finalScoreScreen.style.display = 'none';
+        
+        return true;
     } catch (error) {
         console.error('Error loading quiz:', error);
         alert('Error loading quiz. Please try again later.');
+        return false;
     }
 }
 
@@ -186,6 +251,11 @@ function checkAnswer() {
     if (selectedAnswer === question.answer) {
         score++;
         updateScore();
+    } else {
+        // Add to incorrect questions if not in review mode
+        if (!isReviewMode) {
+            incorrectQuestions.push(currentQuestionIndex);
+        }
     }
     
     // Show explanation
@@ -197,6 +267,9 @@ function checkAnswer() {
     // Show next button
     checkAnswerBtn.style.display = 'none';
     nextCardBtn.style.display = 'block';
+    
+    // Save state after each answer
+    saveState();
 }
 
 // Move to next question
@@ -205,8 +278,71 @@ function nextQuestion() {
     if (currentQuestionIndex < quizData.questions.length) {
         showQuestion();
     } else {
-        showFinalScore();
+        if (!isReviewMode && incorrectQuestions.length > 0) {
+            showReviewPrompt();
+        } else {
+            showFinalScore();
+        }
     }
+    updateProgress();
+}
+
+// Show review mode prompt
+function showReviewPrompt() {
+    // Hide quiz elements
+    questionText.style.display = 'none';
+    answerText.style.display = 'none';
+    checkAnswerBtn.style.display = 'none';
+    nextCardBtn.style.display = 'none';
+    
+    // Create review prompt
+    const reviewPrompt = document.createElement('div');
+    reviewPrompt.className = 'review-prompt';
+    reviewPrompt.innerHTML = `
+        <h3>You missed ${incorrectQuestions.length} questions</h3>
+        <p>Would you like to review the questions you missed?</p>
+        <div class="review-buttons">
+            <button id="start-review" class="btn">Start Review</button>
+            <button id="skip-review" class="btn">Skip Review</button>
+        </div>
+    `;
+    
+    // Add to quiz screen
+    quizScreen.appendChild(reviewPrompt);
+    
+    // Add event listeners
+    document.getElementById('start-review').addEventListener('click', () => {
+        reviewPrompt.remove();
+        startReviewMode();
+    });
+    
+    document.getElementById('skip-review').addEventListener('click', () => {
+        reviewPrompt.remove();
+        showFinalScore();
+    });
+}
+
+// Start review mode with incorrect questions
+function startReviewMode() {
+    isReviewMode = true;
+    currentQuestionIndex = 0;
+    score = 0;
+    updateScore();
+    
+    // Filter questions to only include incorrect ones
+    quizData.questions = incorrectQuestions.map(index => quizData.questions[index]);
+    incorrectQuestions = []; // Reset incorrect questions for review mode
+    
+    // Update UI for review mode
+    quizTitle.textContent = `${quizData.title} - Review Mode`;
+    quizDescription.textContent = 'Reviewing questions you missed';
+    totalQuestionsDisplay.textContent = quizData.questions.length;
+    
+    // Restore quiz elements
+    questionText.style.display = 'block';
+    answerText.style.display = 'block';
+    
+    showQuestion();
     updateProgress();
 }
 
@@ -228,18 +364,34 @@ function showFinalScore() {
     totalScoreDisplay.textContent = quizData.questions.length;
     percentageDisplay.textContent = `${percentage}%`;
     
+    // Add review mode status to final score screen
+    const reviewStatus = document.createElement('p');
+    reviewStatus.className = 'review-status';
+    reviewStatus.textContent = isReviewMode ? 'Review Mode Complete!' : 'First Attempt Complete!';
+    finalScoreScreen.insertBefore(reviewStatus, finalScoreScreen.firstChild);
+    
     quizScreen.style.display = 'none';
     finalScoreScreen.style.display = 'block';
+    
+    // Clear saved state when quiz is completed
+    clearSavedState();
+}
+
+// Reset quiz state
+function resetQuizState() {
+    currentQuestionIndex = 0;
+    score = 0;
+    incorrectQuestions = [];
+    isReviewMode = false;
+    updateScore();
+    updateProgress();
 }
 
 // Event Listeners
 checkAnswerBtn.addEventListener('click', checkAnswer);
 nextCardBtn.addEventListener('click', nextQuestion);
 restartQuizBtn.addEventListener('click', () => {
-    currentQuestionIndex = 0;
-    score = 0;
-    updateScore();
-    updateProgress();
+    resetQuizState();
     showQuestion();
     finalScoreScreen.style.display = 'none';
     quizScreen.style.display = 'block';
@@ -248,12 +400,25 @@ restartQuizBtn.addEventListener('click', () => {
 backToTopicsBtn.addEventListener('click', () => {
     quizScreen.style.display = 'none';
     topicSelection.style.display = 'block';
+    clearSavedState();
 });
 
 backToTopicsFinalBtn.addEventListener('click', () => {
     finalScoreScreen.style.display = 'none';
     topicSelection.style.display = 'block';
+    clearSavedState();
 });
 
 // Initialize the app
-loadQuizzes(); 
+async function initializeApp() {
+    // Try to load saved state first
+    const stateLoaded = await loadState();
+    
+    // If no saved state, load the topic selection
+    if (!stateLoaded) {
+        loadQuizzes();
+    }
+}
+
+// Start the app
+initializeApp(); 
