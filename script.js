@@ -29,6 +29,7 @@ const quizFiles = [
     'questions.json',
     'spanish_questions.json',
     'history_unit8.json',
+    'HistoryComprehensiveTest.json'
 ];
 
 // Load and display available quizzes

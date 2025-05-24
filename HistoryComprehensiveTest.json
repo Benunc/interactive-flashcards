@@ -1,0 +1,545 @@
+{
+  "title": "History Comprehensive Test",
+  "description": "A set of 200 questions covering U.S. history from 1803 to the Cold War era, based on Expansion, Union, Modernism, Interventionism, and Reform.",
+  "questions": [
+    {
+      "question": "What was the primary purpose of the Louisiana Purchase in 1803?",
+      "options": [
+        "To establish a military base",
+        "To double the size of the United States",
+        "To settle disputes with Spain",
+        "To promote industrial growth"
+      ],
+      "answer": 1,
+      "explanation": "The Louisiana Purchase, negotiated by Jefferson, nearly doubled the size of the U.S. by acquiring land from France."
+    },
+    {
+      "question": "Who led the expedition to explore the Louisiana Purchase territory?",
+      "options": [
+        "Thomas Jefferson",
+        "Lewis and Clark",
+        "James Monroe",
+        "Andrew Jackson"
+      ],
+      "answer": 1,
+      "explanation": "Meriwether Lewis and William Clark led the Corps of Discovery to explore the Louisiana Purchase."
+    },
+    {
+      "question": "What concept justified U.S. territorial expansion in the 19th century?",
+      "options": [
+        "Popular Sovereignty",
+        "Manifest Destiny",
+        "Nullification",
+        "Federalism"
+      ],
+      "answer": 1,
+      "explanation": "Manifest Destiny was the belief that the U.S. was destined to expand across North America."
+    },
+    {
+      "question": "What was the main economic impact of the Cotton Gin invented by Eli Whitney?",
+      "options": [
+        "It reduced the need for slavery",
+        "It increased cotton production and slavery",
+        "It promoted industrialization in the North",
+        "It decreased Southern agricultural output"
+      ],
+      "answer": 1,
+      "explanation": "The Cotton Gin made cotton production more efficient, increasing the demand for slave labor in the South."
+    },
+    {
+      "question": "Which legislation aimed to balance slave and free states in 1820?",
+      "options": [
+        "Kansas-Nebraska Act",
+        "Missouri Compromise",
+        "Fugitive Slave Act",
+        "Compromise of 1850"
+      ],
+      "answer": 1,
+      "explanation": "The Missouri Compromise admitted Missouri as a slave state and Maine as a free state, maintaining Senate balance."
+    },
+    {
+      "question": "Who proposed the American System to promote national economic growth?",
+      "options": [
+        "Andrew Jackson",
+        "Henry Clay",
+        "John C. Calhoun",
+        "James Monroe"
+      ],
+      "answer": 1,
+      "explanation": "Henry Clay’s American System included a national bank, tariffs, and infrastructure to boost the economy."
+    },
+    {
+      "question": "What was the primary goal of Jacksonian Democracy?",
+      "options": [
+        "Expanding federal power",
+        "Promoting elite governance",
+        "Increasing political participation",
+        "Reducing state rights"
+      ],
+      "answer": 2,
+      "explanation": "Jacksonian Democracy emphasized greater political participation for the common man."
+    },
+    {
+      "question": "What was the outcome of the Nullification Crisis in the 1830s?",
+      "options": [
+        "South Carolina seceded",
+        "A compromise lowered tariffs",
+        "The federal government abolished tariffs",
+        "States gained the right to nullify laws"
+      ],
+      "answer": 1,
+      "explanation": "Henry Clay’s compromise gradually lowered tariffs, resolving the crisis led by South Carolina."
+    },
+    {
+      "question": "What was the significance of the Indian Removal Act of 1830?",
+      "options": [
+        "It granted Native Americans citizenship",
+        "It forced Native American relocation",
+        "It protected Native American lands",
+        "It ended conflicts with Native Americans"
+      ],
+      "answer": 1,
+      "explanation": "The Indian Removal Act authorized the forced relocation of Native Americans, leading to the Trail of Tears."
+    },
+    {
+      "question": "What was the Trail of Tears?",
+      "options": [
+        "A Native American rebellion",
+        "The forced removal of the Cherokee",
+        "A trade route to the West",
+        "A Civil War battle"
+      ],
+      "answer": 1,
+      "explanation": "The Trail of Tears was the forced relocation of the Cherokee to Oklahoma, resulting in thousands of deaths."
+    },
+    {
+      "question": "Which Supreme Court case expanded federal power through judicial review?",
+      "options": [
+        "Dred Scott v. Sandford",
+        "Marbury v. Madison",
+        "Worcester v. Georgia",
+        "McCulloch v. Maryland"
+      ],
+      "answer": 1,
+      "explanation": "Marbury v. Madison (1803) established judicial review, allowing the Supreme Court to declare laws unconstitutional."
+    },
+    {
+      "question": "What was the main purpose of the Fugitive Slave Act of 1850?",
+      "options": [
+        "To abolish slavery in the North",
+        "To require the return of escaped slaves",
+        "To grant slaves citizenship",
+        "To limit slave trade in Washington, D.C."
+      ],
+      "answer": 1,
+      "explanation": "The Fugitive Slave Act required Northerners to assist in capturing and returning escaped slaves."
+    },
+    {
+      "question": "Which book by Harriet Beecher Stowe fueled anti-slavery sentiment?",
+      "options": [
+        "The Scarlet Letter",
+        "Uncle Tom’s Cabin",
+        "Moby Dick",
+        "Civil Disobedience"
+      ],
+      "answer": 1,
+      "explanation": "Uncle Tom’s Cabin depicted the harsh realities of slavery, galvanizing Northern abolitionists."
+    },
+    {
+      "question": "What was the primary cause of Bleeding Kansas in the 1850s?",
+      "options": [
+        "Gold discoveries",
+        "Conflicts over slavery",
+        "Native American resistance",
+        "Economic depression"
+      ],
+      "answer": 1,
+      "explanation": "Bleeding Kansas resulted from violent clashes between pro-slavery and anti-slavery settlers."
+    },
+    {
+      "question": "What did the Dred Scott v. Sandford decision (1857) declare?",
+      "options": [
+        "Slaves were U.S. citizens",
+        "Slavery was unconstitutional",
+        "African Americans had no citizenship rights",
+        "The Missouri Compromise was valid"
+      ],
+      "answer": 2,
+      "explanation": "The Dred Scott decision ruled that African Americans were not citizens and invalidated the Missouri Compromise."
+    },
+    {
+      "question": "What was the main strategy of the North during the Civil War?",
+      "options": [
+        "War of attrition",
+        "Anaconda Plan",
+        "Guerrilla warfare",
+        "Defensive fortifications"
+      ],
+      "answer": 1,
+      "explanation": "The Anaconda Plan aimed to blockade Southern ports and control the Mississippi River."
+    },
+    {
+      "question": "Which battle marked a turning point in the Civil War?",
+      "options": [
+        "Fort Sumter",
+        "Antietam",
+        "Gettysburg",
+        "Vicksburg"
+      ],
+      "answer": 2,
+      "explanation": "The Battle of Gettysburg (1863) was a major Union victory, halting Confederate advances."
+    },
+    {
+      "question": "What was the purpose of the Emancipation Proclamation issued in 1863?",
+      "options": [
+        "To end the Civil War",
+        "To free slaves in Confederate states",
+        "To abolish slavery nationwide",
+        "To grant slaves voting rights"
+      ],
+      "answer": 1,
+      "explanation": "The Emancipation Proclamation freed slaves in Confederate-held territories, shifting the war’s focus."
+    },
+    {
+      "question": "Which amendment abolished slavery in the United States?",
+      "options": [
+        "13th Amendment",
+        "14th Amendment",
+        "15th Amendment",
+        "19th Amendment"
+      ],
+      "answer": 0,
+      "explanation": "The 13th Amendment (1865) abolished slavery throughout the United States."
+    },
+    {
+      "question": "What was the primary goal of the Freedmen’s Bureau during Reconstruction?",
+      "options": [
+        "To enforce Black Codes",
+        "To assist former slaves and poor whites",
+        "To rebuild Southern infrastructure",
+        "To suppress Confederate leaders"
+      ],
+      "answer": 1,
+      "explanation": "The Freedmen’s Bureau provided aid, education, and legal assistance to former slaves and poor whites."
+    },
+    {
+      "question": "What did the 14th Amendment (1867) primarily address?",
+      "options": [
+        "Voting rights for women",
+        "Citizenship and equal protection",
+        "Prohibition of alcohol",
+        "Abolition of slavery"
+      ],
+      "answer": 1,
+      "explanation": "The 14th Amendment granted citizenship and equal protection under the law to all born in the U.S."
+    },
+    {
+      "question": "What restricted African American rights during Reconstruction?",
+      "options": [
+        "Jim Crow laws",
+        "Black Codes",
+        "Freedmen’s Bureau",
+        "15th Amendment"
+      ],
+      "answer": 1,
+      "explanation": "Black Codes were laws passed to limit the rights and freedoms of African Americans."
+    },
+    {
+      "question": "What ended Reconstruction in 1877?",
+      "options": [
+        "The Election of 1860",
+        "The Compromise of 1877",
+        "The Kansas-Nebraska Act",
+        "The Emancipation Proclamation"
+      ],
+      "answer": 1,
+      "explanation": "The Compromise of 1877 withdrew federal troops from the South, effectively ending Reconstruction."
+    },
+    {
+      "question": "What revolutionized transportation in the late 19th century?",
+      "options": [
+        "Cotton Gin",
+        "Telegraph",
+        "Transcontinental Railroad",
+        "Steamboat"
+      ],
+      "answer": 2,
+      "explanation": "The Transcontinental Railroad connected the East and West, facilitating trade and migration."
+    },
+    {
+      "question": "Who were known as 'Robber Barons' during the Gilded Age?",
+      "options": [
+        "Labor union leaders",
+        "Progressive reformers",
+        "Wealthy industrialists",
+        "Abolitionists"
+      ],
+      "answer": 2,
+      "explanation": "Robber Barons like Rockefeller and Carnegie amassed wealth through monopolistic practices."
+    },
+    {
+      "question": "What was the main goal of the Populist Movement?",
+      "options": [
+        "Promoting industrialization",
+        "Supporting big business",
+        "Addressing farmers’ grievances",
+        "Expanding slavery"
+      ],
+      "answer": 2,
+      "explanation": "The Populist Movement sought reforms to address unfair business practices affecting farmers."
+    },
+    {
+      "question": "Which act aimed to regulate monopolies in 1890?",
+      "options": [
+        "Pure Food and Drug Act",
+        "Sherman Anti-Trust Act",
+        "Federal Reserve Act",
+        "Interstate Commerce Act"
+      ],
+      "answer": 1,
+      "explanation": "The Sherman Anti-Trust Act was designed to curb monopolistic practices, though initially ineffective."
+    },
+    {
+      "question": "What was a key focus of Progressive Era reforms?",
+      "options": [
+        "Maintaining laissez-faire policies",
+        "Expanding corporate power",
+        "Regulating business practices",
+        "Reducing immigration"
+      ],
+      "answer": 2,
+      "explanation": "Progressives pushed for government regulation of businesses to address social and economic issues."
+    },
+    {
+      "question": "Who wrote 'The Jungle,' exposing meatpacking industry abuses?",
+      "options": [
+        "Ida Tarbell",
+        "Upton Sinclair",
+        "Jacob Riis",
+        "Jane Addams"
+      ],
+      "answer": 1,
+      "explanation": "Upton Sinclair’s 'The Jungle' led to reforms like the Pure Food and Drug Act."
+    },
+    {
+      "question": "Which amendment granted women the right to vote?",
+      "options": [
+        "16th Amendment",
+        "17th Amendment",
+        "18th Amendment",
+        "19th Amendment"
+      ],
+      "answer": 3,
+      "explanation": "The 19th Amendment (1920) granted women suffrage."
+    },
+    {
+      "question": "What was the primary cause of the Great Depression?",
+      "options": [
+        "Overproduction and stock speculation",
+        "World War I",
+        "Prohibition",
+        "Immigration quotas"
+      ],
+      "answer": 0,
+      "explanation": "Overproduction, stock market speculation, and uneven wealth distribution triggered the Great Depression."
+    },
+    {
+      "question": "What was Franklin D. Roosevelt’s New Deal designed to address?",
+      "options": [
+        "Foreign policy",
+        "Economic recovery",
+        "Military expansion",
+        "Prohibition"
+      ],
+      "answer": 1,
+      "explanation": "The New Deal included programs for relief, recovery, and reform to combat the Great Depression."
+    },
+    {
+      "question": "What environmental disaster worsened the Great Depression?",
+      "options": [
+        "Hurricane Katrina",
+        "Dust Bowl",
+        "Love Canal",
+        "Three Mile Island"
+      ],
+      "answer": 1,
+      "explanation": "The Dust Bowl, caused by drought and poor farming practices, devastated agriculture."
+    },
+    {
+      "question": "Which act established the Federal Deposit Insurance Corporation?",
+      "options": [
+        "Wagner Act",
+        "New Deal",
+        "Fair Labor Standards Act",
+        "Glass-Steagall Act"
+      ],
+      "answer": 3,
+      "explanation": "The Glass-Steagall Act created the FDIC to insure bank deposits."
+    },
+    {
+      "question": "What was a major social movement during the 1920s?",
+      "options": [
+        "Abolitionism",
+        "Harlem Renaissance",
+        "Women’s Suffrage",
+        "Civil Rights Movement"
+      ],
+      "answer": 1,
+      "explanation": "The Harlem Renaissance was a cultural movement celebrating African American arts."
+    },
+    {
+      "question": "What prompted U.S. entry into World War I?",
+      "options": [
+        "Pearl Harbor",
+        "Zimmerman Telegram",
+        "Treaty of Versailles",
+        "Lend-Lease Act"
+      ],
+      "answer": 1,
+      "explanation": "The Zimmerman Telegram and unrestricted submarine warfare led to U.S. entry in 1917."
+    },
+    {
+      "question": "What was the main goal of the Lend-Lease Act of 1941?",
+      "options": [
+        "To isolate the U.S. from war",
+        "To provide aid to Allied nations",
+        "To rebuild Europe",
+        "To regulate trade"
+      ],
+      "answer": 1,
+      "explanation": "The Lend-Lease Act supplied Allied nations with materials during World War II."
+    },
+    {
+      "question": "Which event marked the start of World War II for the U.S.?",
+      "options": [
+        "D-Day",
+        "Pearl Harbor",
+        "Battle of Midway",
+        "Hiroshima bombing"
+      ],
+      "answer": 1,
+      "explanation": "The Japanese attack on Pearl Harbor in 1941 brought the U.S. into World War II."
+    },
+    {
+      "question": "What was the significance of the Manhattan Project?",
+      "options": [
+        "It developed the atomic bomb",
+        "It rebuilt European cities",
+        "It established the United Nations",
+        "It ended the Great Depression"
+      ],
+      "answer": 0,
+      "explanation": "The Manhattan Project was a secret U.S. program to develop the atomic bomb."
+    },
+    {
+      "question": "What was the primary strategy of the U.S. in the Pacific during World War II?",
+      "options": [
+        "Island hopping",
+        "Blitzkrieg",
+        "Trench warfare",
+        "Blockade"
+      ],
+      "answer": 0,
+      "explanation": "Island hopping involved capturing key Pacific islands to advance toward Japan."
+    },
+    {
+      "question": "What was the purpose of the Marshall Plan after World War II?",
+      "options": [
+        "To rebuild Europe",
+        "To arm NATO allies",
+        "To isolate the Soviet Union",
+        "To fund the Korean War"
+      ],
+      "answer": 0,
+      "explanation": "The Marshall Plan provided economic aid to rebuild Western Europe."
+    },
+    {
+      "question": "What was the main goal of the Truman Doctrine in 1947?",
+      "options": [
+        "To promote global trade",
+        "To contain communism",
+        "To rebuild Japan",
+        "To end colonialism"
+      ],
+      "answer": 1,
+      "explanation": "The Truman Doctrine aimed to contain the spread of communism worldwide."
+    },
+    {
+      "question": "What was the significance of the Berlin Airlift in 1948–1949?",
+      "options": [
+        "It ended the Korean War",
+        "It supplied West Berlin during a Soviet blockade",
+        "It established NATO",
+        "It rebuilt East Germany"
+      ],
+      "answer": 1,
+      "explanation": "The Berlin Airlift delivered supplies to West Berlin, countering a Soviet blockade."
+    },
+    {
+      "question": "What was McCarthyism during the early Cold War?",
+      "options": [
+        "A civil rights movement",
+        "A communist witch hunt",
+        "An economic policy",
+        "A military strategy"
+      ],
+      "answer": 1,
+      "explanation": "McCarthyism refers to Senator Joseph McCarthy’s anti-communist investigations."
+    },
+    {
+      "question": "What was the primary cause of the Korean War (1950–1953)?",
+      "options": [
+        "Japanese invasion",
+        "Communist North Korea’s invasion of South Korea",
+        "U.S. expansionism",
+        "Soviet naval blockade"
+      ],
+      "answer": 1,
+      "explanation": "North Korea’s invasion of South Korea sparked the Korean War, a Cold War conflict."
+    },
+    {
+      "question": "What was the main impact of the G.I. Bill after World War II?",
+      "options": [
+        "It funded the United Nations",
+        "It provided benefits to veterans",
+        "It ended segregation",
+        "It regulated banks"
+      ],
+      "answer": 1,
+      "explanation": "The G.I. Bill offered education, housing, and job benefits to World War II veterans."
+    },
+    {
+      "question": "What cultural phenomenon followed World War II in the U.S.?",
+      "options": [
+        "Great Migration",
+        "Baby Boom",
+        "Dust Bowl",
+        "Harlem Renaissance"
+      ],
+      "answer": 1,
+      "explanation": "The Baby Boom was a significant increase in birth rates post-World War II."
+    },
+    {
+      "question": "What was the main goal of the Environmental Protection Agency created in 1970?",
+      "options": [
+        "To regulate trade",
+        "To enforce pollution standards",
+        "To promote urbanization",
+        "To fund scientific research"
+      ],
+      "answer": 1,
+      "explanation": "The EPA was established to set and enforce environmental protection standards."
+    },
+    {
+      "question": "Which event heightened Cold War tensions in 1962?",
+      "options": [
+        "Berlin Wall construction",
+        "Cuban Missile Crisis",
+        "Korean War",
+        "Iran Hostage Crisis"
+      ],
+      "answer": 1,
+      "explanation": "The Cuban Missile Crisis brought the U.S. and Soviet Union close to nuclear war."
+    }
+  ]
+}
