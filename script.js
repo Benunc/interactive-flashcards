@@ -69,7 +69,7 @@ const backToTopicsFinalBtn = document.getElementById('back-to-topics-final');
 // List of known quiz files
 const quizFiles = [
     'questions.json',
-    'spanish_questions.json',
+    'preterite_questions.json',
     'history_unit8.json',
     'HistoryComprehensiveTest.json'
 ];

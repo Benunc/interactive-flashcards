@@ -1,0 +1,447 @@
+{
+    "title": "Spanish Preterite Tense",
+    "description": "Test your knowledge of Spanish preterite tense verbs, including regular -ar, -er, -ir verbs and common irregular verbs.",
+    "totalQuestions": 40,
+    "questions": [
+        {
+            "question": "Translate to Spanish: 'I spoke with my friend yesterday'",
+            "options": [
+                "Hablo con mi amigo ayer",
+                "Hablé con mi amigo ayer",
+                "Hablaré con mi amigo ayer",
+                "Hablando con mi amigo ayer"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'hablar' in first person singular is 'hablé'."
+        },
+        {
+            "question": "Translate to Spanish: 'They ate at the restaurant'",
+            "options": [
+                "Comen en el restaurante",
+                "Comieron en el restaurante",
+                "Comían en el restaurante",
+                "Comerán en el restaurante"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'comer' in third person plural is 'comieron'."
+        },
+        {
+            "question": "Translate to Spanish: 'She wrote a letter'",
+            "options": [
+                "Escribe una carta",
+                "Escribió una carta",
+                "Escribía una carta",
+                "Escribirá una carta"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'escribir' in third person singular is 'escribió'."
+        },
+        {
+            "question": "Translate to English: 'Yo fui al mercado'",
+            "options": [
+                "I go to the market",
+                "I went to the market",
+                "I will go to the market",
+                "I am going to the market"
+            ],
+            "answer": 1,
+            "explanation": "'Fui' is the preterite form of 'ir' (to go) in first person singular."
+        },
+        {
+            "question": "Translate to Spanish: 'We had a party'",
+            "options": [
+                "Tenemos una fiesta",
+                "Tuvimos una fiesta",
+                "Teníamos una fiesta",
+                "Tendremos una fiesta"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'tener' in first person plural is 'tuvimos'."
+        },
+        {
+            "question": "Translate to Spanish: 'You (formal) made dinner'",
+            "options": [
+                "Hace la cena",
+                "Hizo la cena",
+                "Hacía la cena",
+                "Hará la cena"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'hacer' in third person singular (formal you) is 'hizo'."
+        },
+        {
+            "question": "Translate to English: 'Ellos estuvieron en la playa'",
+            "options": [
+                "They are at the beach",
+                "They were at the beach",
+                "They will be at the beach",
+                "They have been at the beach"
+            ],
+            "answer": 1,
+            "explanation": "'Estuvieron' is the preterite form of 'estar' in third person plural."
+        },
+        {
+            "question": "Translate to Spanish: 'I was sick last week'",
+            "options": [
+                "Estoy enfermo la semana pasada",
+                "Estuve enfermo la semana pasada",
+                "Estaba enfermo la semana pasada",
+                "Estaré enfermo la semana pasada"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'estar' in first person singular is 'estuve'."
+        },
+        {
+            "question": "Translate to Spanish: 'You (informal) saw the movie'",
+            "options": [
+                "Ves la película",
+                "Viste la película",
+                "Veías la película",
+                "Verás la película"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'ver' in second person singular is 'viste'."
+        },
+        {
+            "question": "Translate to English: 'Nosotros fuimos al cine'",
+            "options": [
+                "We go to the movies",
+                "We went to the movies",
+                "We will go to the movies",
+                "We are going to the movies"
+            ],
+            "answer": 1,
+            "explanation": "'Fuimos' is the preterite form of 'ir' in first person plural."
+        },
+        {
+            "question": "Translate to Spanish: 'They gave me a gift'",
+            "options": [
+                "Me dan un regalo",
+                "Me dieron un regalo",
+                "Me daban un regalo",
+                "Me darán un regalo"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'dar' in third person plural is 'dieron'."
+        },
+        {
+            "question": "Translate to Spanish: 'You (plural) came to the party'",
+            "options": [
+                "Vienen a la fiesta",
+                "Vinieron a la fiesta",
+                "Venían a la fiesta",
+                "Vendrán a la fiesta"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'venir' in second person plural is 'vinieron'."
+        },
+        {
+            "question": "Translate to English: 'Yo supe la verdad'",
+            "options": [
+                "I know the truth",
+                "I knew the truth",
+                "I will know the truth",
+                "I am knowing the truth"
+            ],
+            "answer": 1,
+            "explanation": "'Supe' is the preterite form of 'saber' in first person singular."
+        },
+        {
+            "question": "Translate to Spanish: 'She put the book on the table'",
+            "options": [
+                "Pone el libro en la mesa",
+                "Puso el libro en la mesa",
+                "Ponía el libro en la mesa",
+                "Pondrá el libro en la mesa"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'poner' in third person singular is 'puso'."
+        },
+        {
+            "question": "Translate to Spanish: 'We wanted to help'",
+            "options": [
+                "Queremos ayudar",
+                "Quisimos ayudar",
+                "Queríamos ayudar",
+                "Querríamos ayudar"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'querer' in first person plural is 'quisimos'."
+        },
+        {
+            "question": "Translate to English: 'Tú dijiste la verdad'",
+            "options": [
+                "You tell the truth",
+                "You told the truth",
+                "You will tell the truth",
+                "You are telling the truth"
+            ],
+            "answer": 1,
+            "explanation": "'Dijiste' is the preterite form of 'decir' in second person singular."
+        },
+        {
+            "question": "Translate to Spanish: 'I could finish the work'",
+            "options": [
+                "Puedo terminar el trabajo",
+                "Pude terminar el trabajo",
+                "Podía terminar el trabajo",
+                "Podré terminar el trabajo"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'poder' in first person singular is 'pude'."
+        },
+        {
+            "question": "Translate to Spanish: 'They brought the food'",
+            "options": [
+                "Traen la comida",
+                "Trajeron la comida",
+                "Traían la comida",
+                "Traerán la comida"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'traer' in third person plural is 'trajeron'."
+        },
+        {
+            "question": "Translate to English: 'Ella condujo el carro'",
+            "options": [
+                "She drives the car",
+                "She drove the car",
+                "She will drive the car",
+                "She is driving the car"
+            ],
+            "answer": 1,
+            "explanation": "'Condujo' is the preterite form of 'conducir' in third person singular."
+        },
+        {
+            "question": "Translate to Spanish: 'You (formal) produced the movie'",
+            "options": [
+                "Produce la película",
+                "Produjo la película",
+                "Producía la película",
+                "Producirá la película"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'producir' in third person singular (formal you) is 'produjo'."
+        },
+        {
+            "question": "Translate to Spanish: 'I danced at the party'",
+            "options": [
+                "Bailo en la fiesta",
+                "Bailé en la fiesta",
+                "Bailaré en la fiesta",
+                "Bailando en la fiesta"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'bailar' in first person singular is 'bailé'."
+        },
+        {
+            "question": "Translate to Spanish: 'You drank water'",
+            "options": [
+                "Bebes agua",
+                "Bebiste agua",
+                "Bebías agua",
+                "Beberás agua"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'beber' in second person singular is 'bebiste'."
+        },
+        {
+            "question": "Translate to English: 'Él vivió en Madrid'",
+            "options": [
+                "He lives in Madrid",
+                "He lived in Madrid",
+                "He will live in Madrid",
+                "He is living in Madrid"
+            ],
+            "answer": 1,
+            "explanation": "'Vivió' is the preterite form of 'vivir' in third person singular."
+        },
+        {
+            "question": "Translate to Spanish: 'You all were at home'",
+            "options": [
+                "Están en casa",
+                "Estuvisteis en casa",
+                "Estabais en casa",
+                "Estaréis en casa"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'estar' in second person plural is 'estuvisteis'."
+        },
+        {
+            "question": "Translate to English: 'Tú tuviste razón'",
+            "options": [
+                "You have reason",
+                "You had reason",
+                "You will have reason",
+                "You are having reason"
+            ],
+            "answer": 1,
+            "explanation": "'Tuviste' is the preterite form of 'tener' in second person singular."
+        },
+        {
+            "question": "Translate to Spanish: 'They did their homework'",
+            "options": [
+                "Hacen su tarea",
+                "Hicieron su tarea",
+                "Hacían su tarea",
+                "Harán su tarea"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'hacer' in third person plural is 'hicieron'."
+        },
+        {
+            "question": "Translate to English: 'Nosotros dimos un regalo'",
+            "options": [
+                "We give a gift",
+                "We gave a gift",
+                "We will give a gift",
+                "We are giving a gift"
+            ],
+            "answer": 1,
+            "explanation": "'Dimos' is the preterite form of 'dar' in first person plural."
+        },
+        {
+            "question": "Translate to Spanish: 'You (formal) saw the movie'",
+            "options": [
+                "Ve la película",
+                "Vio la película",
+                "Veía la película",
+                "Verá la película"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'ver' in third person singular (formal you) is 'vio'."
+        },
+        {
+            "question": "Translate to English: 'Ellos quisieron ayudar'",
+            "options": [
+                "They want to help",
+                "They wanted to help",
+                "They will want to help",
+                "They are wanting to help"
+            ],
+            "answer": 1,
+            "explanation": "'Quisieron' is the preterite form of 'querer' in third person plural."
+        },
+        {
+            "question": "Translate to Spanish: 'I came to the meeting'",
+            "options": [
+                "Vengo a la reunión",
+                "Vine a la reunión",
+                "Venía a la reunión",
+                "Vendré a la reunión"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'venir' in first person singular is 'vine'."
+        },
+        {
+            "question": "Translate to English: 'Tú pudiste terminar'",
+            "options": [
+                "You can finish",
+                "You could finish",
+                "You will be able to finish",
+                "You are able to finish"
+            ],
+            "answer": 1,
+            "explanation": "'Pudiste' is the preterite form of 'poder' in second person singular."
+        },
+        {
+            "question": "Translate to Spanish: 'She put the keys on the table'",
+            "options": [
+                "Pone las llaves en la mesa",
+                "Puso las llaves en la mesa",
+                "Ponía las llaves en la mesa",
+                "Pondrá las llaves en la mesa"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'poner' in third person singular is 'puso'."
+        },
+        {
+            "question": "Translate to English: 'Nosotros supimos la noticia'",
+            "options": [
+                "We know the news",
+                "We knew the news",
+                "We will know the news",
+                "We are knowing the news"
+            ],
+            "answer": 1,
+            "explanation": "'Supimos' is the preterite form of 'saber' in first person plural."
+        },
+        {
+            "question": "Translate to Spanish: 'You all said the truth'",
+            "options": [
+                "Dicen la verdad",
+                "Dijisteis la verdad",
+                "Decíais la verdad",
+                "Diréis la verdad"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'decir' in second person plural is 'dijisteis'."
+        },
+        {
+            "question": "Translate to English: 'Ella trajo el libro'",
+            "options": [
+                "She brings the book",
+                "She brought the book",
+                "She will bring the book",
+                "She is bringing the book"
+            ],
+            "answer": 1,
+            "explanation": "'Trajo' is the preterite form of 'traer' in third person singular."
+        },
+        {
+            "question": "Translate to Spanish: 'We wrote a letter'",
+            "options": [
+                "Escribimos una carta",
+                "Escribimos una carta",
+                "Escribíamos una carta",
+                "Escribiremos una carta"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'escribir' in first person plural is 'escribimos'."
+        },
+        {
+            "question": "Translate to English: 'Vosotros bailasteis bien'",
+            "options": [
+                "You all dance well",
+                "You all danced well",
+                "You all will dance well",
+                "You all are dancing well"
+            ],
+            "answer": 1,
+            "explanation": "'Bailasteis' is the preterite form of 'bailar' in second person plural."
+        },
+        {
+            "question": "Translate to Spanish: 'They drank coffee'",
+            "options": [
+                "Beben café",
+                "Bebieron café",
+                "Bebían café",
+                "Beberán café"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'beber' in third person plural is 'bebieron'."
+        },
+        {
+            "question": "Translate to English: 'Yo viví en Barcelona'",
+            "options": [
+                "I live in Barcelona",
+                "I lived in Barcelona",
+                "I will live in Barcelona",
+                "I am living in Barcelona"
+            ],
+            "answer": 1,
+            "explanation": "'Viví' is the preterite form of 'vivir' in first person singular."
+        },
+        {
+            "question": "Translate to Spanish: 'You (formal) were right'",
+            "options": [
+                "Tiene razón",
+                "Tuvo razón",
+                "Tenía razón",
+                "Tendrá razón"
+            ],
+            "answer": 1,
+            "explanation": "The preterite form of 'tener' in third person singular (formal you) is 'tuvo'."
+        }
+    ]
+} 
